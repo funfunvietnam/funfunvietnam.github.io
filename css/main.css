@@ -39,6 +39,9 @@ ul, ol, dl, figure,
 ul, ol {
   margin-bottom: 30px !important; }
 
+hr {
+  margin: 1.5rem 0; }
+
 /**
  * Articles
  */
