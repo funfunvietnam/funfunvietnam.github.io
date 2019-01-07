@@ -78,8 +78,6 @@
 	<h1 class="post-title" itemprop="name headline">Use Google Sheets to make your own dictionary</h1>
 </header>
 
-<div class="sharethis-inline-share-buttons"></div>
-
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 	<div class="entry-content" itemprop="articleBody">
 		<p>If you have experience to lookup Vietnamese words in English dictionary, you must noticed that the quailty of the translation is often unsatisfied. Let’s look deeply in this problem by using two popular dictionaries, <code class="highlighter-rouge">Google Translate</code> and <code class="highlighter-rouge">English Vietnamese Dictionary TFlat</code>.</p>
@@ -194,6 +192,8 @@
 	</div>
 </article>
 
+<div class="sharethis-inline-share-buttons"></div>
+
 <div id="post-nav">
 	<div class="next">
 		
@@ -208,7 +208,49 @@
 		
 	</div>
 </div>
-
+<style>
+#btnTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #FF9800;
+  color: white;
+  cursor: pointer;
+  padding: 0 5px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#btnTop::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #fff;
+}
+#btnTop:hover{cursor:pointer;background-color:#333;}
+#btnTop:active{background-color:#555;}
+</style>
+<button onclick="goToTop()" id="btnTop" title="Go to top"></button>
+<script>
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("btnTop").style.display = "block";
+  } else {
+    document.getElementById("btnTop").style.display = "none";
+  }
+}
+function goToTop() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
 
 	<div id="disqus_thread"></div>
 <script>
