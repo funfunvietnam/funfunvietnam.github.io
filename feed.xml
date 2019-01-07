@@ -4,18 +4,18 @@
     <title>Fun Fun Vietnam</title>
     <description>A space to share how I have learnt about Vietnam
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Jan 2019 19:55:33 +0700</pubDate>
-    <lastBuildDate>Mon, 07 Jan 2019 19:55:33 +0700</lastBuildDate>
+    <link>https://blog.funfunvietnam.com/</link>
+    <atom:link href="https://blog.funfunvietnam.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 07 Jan 2019 23:21:43 +0700</pubDate>
+    <lastBuildDate>Mon, 07 Jan 2019 23:21:43 +0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Use Google Sheets to make your own dictionary</title>
         <description>If you have experience to lookup Vietnamese words in English dictionary, you must noticed that the quailty of the translation is often unsatisfied. Let’s look deeply in this problem by...</description>
         <pubDate>Mon, 07 Jan 2019 00:00:00 +0700</pubDate>
-        <link>/2019/01/07/use-google-sheets-to-make-your-own-dictionary.html</link>
-        <guid isPermaLink="true">/2019/01/07/use-google-sheets-to-make-your-own-dictionary.html</guid>
+        <link>https://blog.funfunvietnam.com/2019/01/07/use-google-sheets-to-make-your-own-dictionary.html</link>
+        <guid isPermaLink="true">https://blog.funfunvietnam.com/2019/01/07/use-google-sheets-to-make-your-own-dictionary.html</guid>
         
         
       </item>
@@ -24,8 +24,8 @@
         <title>How I learnt Vietnamese - part 2</title>
         <description>How long does it take to improve Vietnamese skill from speaking few limited vocabulary to expressing opinion? For me, this phase took me around 6 months. In the beginning of...</description>
         <pubDate>Sun, 08 Jul 2018 00:00:00 +0700</pubDate>
-        <link>/2018/07/08/how-i-learnt-vietnamese-part-2.html</link>
-        <guid isPermaLink="true">/2018/07/08/how-i-learnt-vietnamese-part-2.html</guid>
+        <link>https://blog.funfunvietnam.com/2018/07/08/how-i-learnt-vietnamese-part-2.html</link>
+        <guid isPermaLink="true">https://blog.funfunvietnam.com/2018/07/08/how-i-learnt-vietnamese-part-2.html</guid>
         
         
       </item>
@@ -34,8 +34,8 @@
         <title>How I learnt Vietnamese</title>
         <description>Last year, I have a plan to travel to Vietnam as a backpacker. It’s my first time to visit this country, so I thought I should learn some Vietnamese. Then,...</description>
         <pubDate>Tue, 03 Jul 2018 00:00:00 +0700</pubDate>
-        <link>/2018/07/03/how-i-learnt-vietnamese.html</link>
-        <guid isPermaLink="true">/2018/07/03/how-i-learnt-vietnamese.html</guid>
+        <link>https://blog.funfunvietnam.com/2018/07/03/how-i-learnt-vietnamese.html</link>
+        <guid isPermaLink="true">https://blog.funfunvietnam.com/2018/07/03/how-i-learnt-vietnamese.html</guid>
         
         
       </item>
