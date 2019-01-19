@@ -1,2 +1,3 @@
 User-agent: *
-Sitemap: https://blog.funfunvietnam.com/sitemap.xml
+Sitemap: https://funfunvietnam.com/sitemap.xml
+Disallow: /404.html
