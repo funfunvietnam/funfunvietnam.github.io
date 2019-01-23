@@ -5,7 +5,9 @@
 <meta name="theme-color" content="#943526">
 <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% endif %}">
 <meta name="description" content="{% if page.desc %}{{ page.desc }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-{% if page.thumbnail %}
+{% if page.thumbnailref %}
+<meta property="og:image" content="{{ page.thumbnailref }}">
+{% elsif page.thumbnail %}
 <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.thumbnail }}">
 {% else %}
 <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/og-image.png">
@@ -25,7 +27,9 @@
 <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-{% include google-analytics-global-site-tag.html %}
-{% include google-adsense-connect-code.html %}
-{% if page.title %}{% include sharethis.html %}{% endif %}
+{% if jekyll.environment != "local" %}
+  {% include google-analytics-global-site-tag.html %}
+  {% include google-adsense-connect-code.html %}
+  {% if page.title %}{% include sharethis.html %}{% endif %}
+{% endif %}
 </head>

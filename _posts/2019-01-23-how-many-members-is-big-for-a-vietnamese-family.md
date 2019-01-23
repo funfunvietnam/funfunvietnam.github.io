@@ -2,10 +2,14 @@
 layout: post
 title: How many members is big for a Vietnamese family?
 date: 2019-01-23T13:07:48.349Z
-keywords: size of Vietnamese family
+thumbnailref: https://images.pexels.com/photos/235829/pexels-photo-235829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=283&w=640
+keywords: average family size in vietnam,size of Vietnamese family
 comments: true
 ---
+
 Recently, one of my friend told me that last time she backed to her hometown to attend a funeral. At there, she met hundreds of relatives. Yes, hundreds of people ... it is not a kidding.
+
+![](https://images.pexels.com/photos/235829/pexels-photo-235829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=283&w=640)
 
 In her family, the eldest person is her grandmother, who is already 94 years old. And the first son of the grandmother, 74 years old, already becomes a grand-grand-grandfather... That means there are 6 generations in this big family. 😱
 

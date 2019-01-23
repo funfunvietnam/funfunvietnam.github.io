@@ -59,6 +59,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll (~> 3.8.5)
   jekyll-sitemap
 
 BUNDLED WITH
