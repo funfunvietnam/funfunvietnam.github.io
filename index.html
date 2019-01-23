@@ -19,9 +19,9 @@ layout: default
 				</header>
 
 				<div class="entry-content">
-					{% if page.thumbnailref %}
+					{% if post.thumbnailref %}
 					<img src="{{ post.thumbnailref }}">
-					{% elsif page.thumbnail %}
+					{% elsif post.thumbnail %}
 					<img src="{{ site.url }}{{ site.baseurl }}{{ post.thumbnail }}">
 					{% endif %}
 
