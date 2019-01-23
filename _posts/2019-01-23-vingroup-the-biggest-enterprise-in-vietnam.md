@@ -12,6 +12,8 @@ As a foreigner who lives in Vietnam, it is easy to notice that a lot of great se
 
 ![](/assets/images/uploads/vingroup-logos.png)
 
+---
+
 ## Commerce
 
 ![](https://static.vingroup.net/vgh_files/assets/images/icons/vincommerce.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/vinmart.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/vinmartplus.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/vinpro.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/vingroupcard.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/adayroi.png)
@@ -25,6 +27,8 @@ As a foreigner who lives in Vietnam, it is easy to notice that a lot of great se
 * `adayroi.com`: e-commerce
 
 Recently, the VinGroup release the groupcard service called `VinID`. If you use the card to shop in VinGroup’s shops, you can get Vinpoint for a direct deduction on your bill during transaction at the shops. 1 Vinpoint is equal to 1,000 VND
+
+---
 
 ## Tourism
 
@@ -69,53 +73,53 @@ Vinpearl owns major resorts in Vietnam such as Vinpearl Nha Trang, Vinpearl Da N
 #### VinpearlLand Nam Hoi An
 ![](http://vinpearlland.com/teaser/img/images/namhoiansd.png)
 
+---
+
 ## Hospital
+
+![](https://static.vingroup.net/vgh_files/assets/images/icons/vinmec.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/vinfa.png)
+
+* `Vinmec`: hospital
+* `VinFa`: pharmaceuticals and traditional medicine
+
+
+Healthcare including Vinmec International Hospital, Times City Hanoi, Vinmec Royal International
+
+---
 
 ## Real Estate
 
-Agriculture
+![](https://static.vingroup.net/vgh_files/assets/images/icons/vincom.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/vinhomes.png)
 
-Automobile
+* `Vincom`: shopping malls
+  * Vincom Centre
+  * Vincom Plaza
+  * Vincom Mega Mall
+  * Vincom+ mall
+* `Vinhomes`: residential real estate development (Landmark 81, Times City)
+  * Landmark 81: a super-tall skyscraper. It's the tallest building in Vietnam and the tallest completed building in Southeast Asia as of July, 2018 and the 14th tallest building in the world
+  * Times City: is a community in Hanoi, which includes many functional areas: apartments, commercial centers, hospitals, schools, parks, lakes, swimming pools, aquariums, squares with typical water music stage ...
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/LM81_NhonHuynh_5-8-2018.jpg/240px-LM81_NhonHuynh_5-8-2018.jpg)
+<figcaption>Landmark 81 in Ho Chi Minh City, Vietnam</figcaption>
 
-Charity
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/The_panorama_of_Times_City_Square.jpg/250px-The_panorama_of_Times_City_Square.jpg)
+<figcaption>Times City in Hanoi, Vietnam</figcaption>
 
-Vingroup JSC is engaged in the construction of retail outlets, commercial offices, and residential units; and the provision of entertainment services. Its products and services include: real estate, tourism & hotel, healthcare services, fitness and beauty care. The company was founded by Vuong Nhat Pham on May 3, 2002 and is headquartered in Hanoi, Vietnam.
+---
 
-Conglomerate
+## Others
 
-Real Estate
+![](https://static.vingroup.net/vgh_files/assets/images/icons/vinschool.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/vineco.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/vinfast.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/quythientam.png)
 
-Real Estate
+* `Vinschool`: education from kindergarten, elementary school, middle school to high school, with a total of 13,000 students enrolled.
+* `Vineco`: agricultural production, operating 14 farms spanning 2,000 hectares (7.7 sq mi)
+* `Vinfast`: automobile, cars and motorbike manufacturing, planning to release first model
+* `Quy Thien Tam`: charity. philanthropical organisation on behalf of Vingroup
 
-Tourism
+---
 
-Tourism
-
-Hospital
-
-Medicine
-
-Education
-
-Commerce
-
-Commerce
-
-E-commerce
-
-Shopping
-
-Shopping
-
-IT
-
-Agriculture
-
-Automobile
-
-Restaurant
-
-Charity
-
+## VinGroup
 ![](https://static.vingroup.net/vgh_files/assets/images/icons/vingroup.png)
+
+VinGroup JSC is engaged in the lots of fields as the list above and help this country to grow up. The company was founded by Vuong Nhat Pham on May 3, 2002 and is headquartered in Hanoi, Vietnam.
