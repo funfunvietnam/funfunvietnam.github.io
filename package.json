@@ -1,0 +1,16 @@
+{
+  "name": "funfunvietnam.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "JEKYLL_ENV=development jekyll serve --watch",
+    "build": "JEKYLL_ENV=production jekyll build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket-ahung888:ahung888/funfunvietnam.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

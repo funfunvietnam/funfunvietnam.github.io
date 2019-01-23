@@ -1,0 +1,57 @@
+id,airport name,ICAO,IATA,location,type,subtype,province,province-id
+1,Can Tho International Airport,VVCT,VCA,Cần Thơ,Civil Airports,international airports,Cần Thơ,VN-CT
+2,Chu Lai International Airport,VVCA,VCL,Chu Lai,Civil Airports,international airports,Quảng Nam,VN-27
+3,Lien Khuong International Airport,VVDL,DLI,Đà Lạt,Civil Airports,international airports,Lâm Đồng,VN-35
+4,Da Nang International Airport,VVDN,DAD,Đà Nẵng,Civil Airports,international airports,Đà Nẵng,VN-DN
+5,Cat Bi International Airport,VVCI,HPH,Hải Phòng,Civil Airports,international airports,Hải Phòng,VN-HP
+6,Noi Bai International Airport,VVNB,HAN,Hà Nội,Civil Airports,international airports,Hà Nội,VN-HN
+7,Tan Son Nhat International Airport,VVTS,SGN,Hồ Chí Minh City,Civil Airports,international airports,Hồ Chí Minh,VN-SG
+8,Phu Bai International Airport,VVPB,HUI,Huế,Civil Airports,international airports,Thừa Thiên–Huế,VN-26
+9,Cam Ranh International Airport,VVCR,CXR,Nha Trang,Civil Airports,international airports,Khánh Hòa,VN-34
+10,Phu Quoc International Airport,VVPQ,PQC,Phú Quốc,Civil Airports,international airports,Kiên Giang,VN-47
+11,Van Don International Airport,VVVD,VDO,Quảng Ninh,Civil Airports,international airports,Quảng Ninh,VN-13
+12,Buon Ma Thuot Airport,VVBM,BMV,Buôn Ma Thuột,Civil Airports,domestic airports,Đắk Lắk,VN-33
+13,Cà Mau Airport,VVCM,CAH,Cà Mau,Civil Airports,domestic airports,Cà Mau,VN-59
+14,Co Ong Airport,VVCS,VCS,Côn Đảo,Civil Airports,domestic airports,Bà Rịa–Vũng Tàu,VN-43
+15,Điện Biên Phủ Airport,VVDB,DIN,Điện Biên Phủ,Civil Airports,domestic airports,Điện Biên,VN-71
+16,Dong Hoi Airport,VVDH,VDH,Đồng Hới,Civil Airports,domestic airports,Quảng Bình,VN-24
+17,Pleiku Airport,VVPK,PXU,Pleiku,Civil Airports,domestic airports,Gia Lai,VN-30
+18,Phu Cat Airport,VVPC,UIH,Qui Nhơn,Civil Airports,domestic airports,Bình Định,VN-31
+19,Rach Gia Airport,VVRG,VKG,Rạch Giá,Civil Airports,domestic airports,Kiên Giang,VN-47
+20,Dong Tac Airport,VVTH,TBB,Tuy Hòa,Civil Airports,domestic airports,Phú Yên,VN-32
+21,Vinh Airport,VVVH,VII,Vinh,Civil Airports,domestic airports,Nghệ An,VN-22
+22,Vung Tau Airport,VVVT,VTG,Vũng Tàu,Civil Airports,domestic airports,Bà Rịa–Vũng Tàu,VN-43
+23,Tho Xuan Airport,VVTX,THD,Thanh Hóa,Civil Airports,domestic airports,Thanh Hóa,VN-21
+24,Kép Air Base,VVKP,,Bắc Giang,Military Airports,active,Bắc Giang,VN-54
+25,Bien Hoa Air Base,,,Biên Hòa,Military Airports,active,Đồng Nai,VN-39
+26,Cam Ranh Air Base,,,Cam Ranh,Military Airports,active,Khánh Hòa,VN-34
+27,Cam Ranh Naval Base Airstrip,,,Cam Ranh,Military Airports,active,Khánh Hòa,VN-34
+28,Hòa Lạc Air Base,,,Hanoi (Hà Tây),Military Airports,active,Hà Tây,VN-15
+29,Gia Lam Airbase,VVGL,,Hanoi,Military Airports,active,Hà Nội,VN-HN
+30,Kien An Airport,VV03,,Hai Phong,Military Airports,active,Hải Phòng,VN-HP
+31,Phan Rang Air Base,VVPR,PHA,Phan Rang,Military Airports,active,Ninh Thuận,VN-36
+32,Truong Sa Airport,,,Truong Sa,Military Airports,active,,
+33,Yên Bái Air Base,,,Yên Bái,Military Airports,active,Yên Bái,VN-06
+34,Cam Ly Airport,VVCL,,Đà Lạt,Military Airports,inactive,Lâm Đồng,VN-35
+35,Nước Mặn Air Base,,,Đà Nẵng,Military Airports,inactive,Đà Nẵng,VN-DN
+36,Long Thanh International Airport,,,Đồng Nai,Proposed Airports,,Đồng Nai,VN-39
+37,Sa Pa Airport,,,Lào Cai,Proposed Airports,,Lào Cai,VN-02
+38,Phan Thiet Airport,VVPT,PHH,"Phan Thiet, Binh Thuan",Proposed Airports,,Bình Thuận,VN-40
+39,An Giang Airport,,,An Giang,Proposed Airports,,An Giang,VN-44
+40,Duong Dong Airport,VVPQ,PQC,Phú Quốc,Former Airports,,Kiên Giang,VN-47
+41,Ben Tre Airfield,,,Bến Tre,Former Airports,,Bến Tre,VN-50
+42,Xuan Loc Airfield,,,Biên Hòa,Former Airports,,Đồng Nai,VN-39
+43,Phan Thiet Airfield,,,Bình Thuận,Former Airports,,Bình Thuận,VN-40
+44,"Binh Thuy Air Base to converted as Trà Nóc Airport",,,Cần Thơ,Former Airports,,Cần Thơ,VN-CT
+45,An Khe Airport,,,Đắk Lắk,Former Airports,,Đắk Lắk,VN-33
+46,Bach Mai Airfield,,,Hanoi,Former Airports,,Hà Nội,VN-HN
+47,Nha Trang Air Base,VVNT,NHA,Khánh Hòa,Former Airports,,Khánh Hòa,VN-34
+48,Tan An Airfield,,,Long An,Former Airports,,Long An,VN-41
+49,Anh Son Airfield,,,Nghệ An,Former Airports,,Nghệ An,VN-22
+50,Dong Ha Airfield,,,Quảng Trị,Former Airports,,Quảng Trị,VN-25
+51,Tay Ninh West Airfield,,,Tây Ninh,Former Airports,,Tây Ninh,VN-37
+52,Tra Vinh Airport,,,Trà Vinh,Former Airports,,Trà Vinh,VN-51
+53,Vinh Long Airfield,,XVL,Vĩnh Long,Former Airports,,Vĩnh Long,VN-49
+54,Bao Loc Airfield,,,Lâm Đồng,Former Airports,,Lâm Đồng,VN-35
+55,Loc Phat Airfield,,,Lâm Đồng,Former Airports,,Lâm Đồng,VN-35
+56,Phu Loi Airfield,,,Bình Dương,Former Airports,,Bình Dương,VN-57

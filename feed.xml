@@ -1,84 +1,30 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fun Fun Vietnam</title>
-    <description>A space to share how I have learnt about Vietnam
-</description>
-    <link>https://funfunvietnam.com/</link>
-    <atom:link href="https://funfunvietnam.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Jan 2019 17:48:54 +0700</pubDate>
-    <lastBuildDate>Sun, 20 Jan 2019 17:48:54 +0700</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
-    
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}
       <item>
-        <title>List of airports in Vietnam</title>
-        <description>How many airports in Vietnam? Five or six? As a foreigner, I’ve heard several cities which famous in tourism. For example, Hà Nội, Hồ Chí Minh, Đà Nẵng, Hải Phòng…...</description>
-        <pubDate>Sat, 19 Jan 2019 00:00:00 +0700</pubDate>
-        <link>https://funfunvietnam.com/2019/01/19/list-of-airports-in-vietnam.html</link>
-        <guid isPermaLink="true">https://funfunvietnam.com/2019/01/19/list-of-airports-in-vietnam.html</guid>
-        
-        
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | strip_html | truncatewords: 30 }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
       </item>
-    
-      <item>
-        <title>Holidays in Vietnam in 2019</title>
-        <description>Public holidays in Vietnam are days when workers get the day off work. Vietnamese workers observed 10 days of public holiday a year. If you are planing a vocation to...</description>
-        <pubDate>Thu, 17 Jan 2019 00:00:00 +0700</pubDate>
-        <link>https://funfunvietnam.com/2019/01/17/holidays-in-vietnam-in-2019.html</link>
-        <guid isPermaLink="true">https://funfunvietnam.com/2019/01/17/holidays-in-vietnam-in-2019.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Interesting custom on Vietnamese Lunar New Year</title>
-        <description>Vietnam is one of the country whose people use lunar calendar for their important days. For example, the date of Vietnamese New Year is on 1st, January in lunar calendar....</description>
-        <pubDate>Tue, 15 Jan 2019 00:00:00 +0700</pubDate>
-        <link>https://funfunvietnam.com/2019/01/15/interesting-custom-on-vietnamese-lunar-new-year.html</link>
-        <guid isPermaLink="true">https://funfunvietnam.com/2019/01/15/interesting-custom-on-vietnamese-lunar-new-year.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>National Cinema Center at Hanoi, Vietnam</title>
-        <description>Want to see a movie at Hanoi? If you lookup on Google Map, you must found that the popluar cniemas in Vietnam are CGV cinema and Lotte cinema. Both of...</description>
-        <pubDate>Thu, 10 Jan 2019 00:00:00 +0700</pubDate>
-        <link>https://funfunvietnam.com/2019/01/10/national-cinema-center-at-hanoi-vietnam.html</link>
-        <guid isPermaLink="true">https://funfunvietnam.com/2019/01/10/national-cinema-center-at-hanoi-vietnam.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Use Google Sheets to make your own dictionary</title>
-        <description>If you have experience to lookup Vietnamese words in English dictionary, you must be noticed that the quality of the translation is often unsatisfied. Let’s look deeply in this problem...</description>
-        <pubDate>Mon, 07 Jan 2019 00:00:00 +0700</pubDate>
-        <link>https://funfunvietnam.com/2019/01/07/use-google-sheets-to-make-your-own-dictionary.html</link>
-        <guid isPermaLink="true">https://funfunvietnam.com/2019/01/07/use-google-sheets-to-make-your-own-dictionary.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How I learnt Vietnamese - part 2</title>
-        <description>How long does it take to improve Vietnamese skill from speaking few limited vocabulary to expressing opinion? For me, this phase took me around 6 months. In the beginning of...</description>
-        <pubDate>Sun, 08 Jul 2018 00:00:00 +0700</pubDate>
-        <link>https://funfunvietnam.com/2018/07/08/how-i-learnt-vietnamese-part-2.html</link>
-        <guid isPermaLink="true">https://funfunvietnam.com/2018/07/08/how-i-learnt-vietnamese-part-2.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How I learnt Vietnamese</title>
-        <description>Last year, I have a plan to travel to Vietnam as a backpacker. It’s my first time to visit this country, so I thought I should learn some Vietnamese. Then,...</description>
-        <pubDate>Tue, 03 Jul 2018 00:00:00 +0700</pubDate>
-        <link>https://funfunvietnam.com/2018/07/03/how-i-learnt-vietnamese.html</link>
-        <guid isPermaLink="true">https://funfunvietnam.com/2018/07/03/how-i-learnt-vietnamese.html</guid>
-        
-        
-      </item>
-    
+    {% endfor %}
   </channel>
 </rss>
