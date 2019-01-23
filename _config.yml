@@ -30,7 +30,7 @@ disqushandler: 'funfunvietnam'
 # Google Analytics
 gahandler: 'UA-131738208-1'
 # Google AdSense
-gadflag: false
+gadflag: true
 
 # Build settings
 markdown: kramdown
