@@ -42,6 +42,7 @@ Vinpearl owns major resorts in Vietnam such as Vinpearl Nha Trang, Vinpearl Da N
 
 ##### Vinpearl Nha Trang
 ![](https://vpweb.azureedge.net/wp-content/uploads/sites/17/2018/09/VPDS1NT_Hotelthumbnail.png)
+
 ![](https://vpweb.azureedge.net/wp-content/uploads/sites/16/2018/09/VPLXNT_hotel_thumb.jpg)
 
 ##### Vinpearl Da Nang
@@ -54,6 +55,7 @@ Vinpearl owns major resorts in Vietnam such as Vinpearl Nha Trang, Vinpearl Da N
 
 ##### Vinpearl Phu Quoc
 ![](https://vpweb.azureedge.net/wp-content/uploads/sites/14/2018/09/VPDSPQ_HotelThumbnail-5.jpg)
+
 ![](https://vpweb.azureedge.net/wp-content/uploads/sites/13/2018/08/VPRGPQ-Hotelthumnail.jpg)
 
 ---
