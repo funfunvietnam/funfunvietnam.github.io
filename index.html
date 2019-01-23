@@ -20,7 +20,7 @@ layout: default
 
 				<div class="entry-content">
 					{% if post.thumbnail %}
-					<img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ post.thumbnail }}">
+					<img src="{{ site.url }}{{ site.baseurl }}{{ post.thumbnail }}">
 					{% endif %}
 
 					{{ post.content | truncatewords: 30 }}

@@ -2,7 +2,7 @@
 layout:   post
 title:    Use Google Sheets to make your own dictionary
 keywords: building dictionary,build synonym,english vietnamese dictionary
-thumbnail: 2019/dictionary-template-thumbnail.png
+thumbnail: /assets/images/2019/dictionary-template-thumbnail.png
 comments: true
 ---
 

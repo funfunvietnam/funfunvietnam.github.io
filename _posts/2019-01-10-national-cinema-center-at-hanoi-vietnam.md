@@ -2,7 +2,7 @@
 layout:    post
 title:     National Cinema Center at Hanoi, Vietnam
 keywords:  national cinema center,cinema hanoi,cgv,lotte
-thumbnail: 2019/hanoi-national-cinema-center-building.png
+thumbnail: /assets/images/2019/hanoi-national-cinema-center-building.png
 comments:  true
 ---
 

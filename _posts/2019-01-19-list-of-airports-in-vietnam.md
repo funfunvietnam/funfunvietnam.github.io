@@ -2,7 +2,7 @@
 layout:    post
 title:     List of airports in Vietnam
 keywords:  airports vietnam,vietnam map,data visualization,civil airport, military airport
-thumbnail: 2019/list-of-airports-in-vietnam.jpeg
+thumbnail: /assets/images/2019/list-of-airports-in-vietnam.jpeg
 comments:  true
 ---
 

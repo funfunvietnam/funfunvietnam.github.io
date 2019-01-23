@@ -2,7 +2,7 @@
 layout:    post
 title:     Holidays in Vietnam in 2019
 keywords:  Holidays Vietnam 2019,Vietnamese Holiday 2019,Vietnam holiday,vietnamese calendar 2019
-thumbnail: 2019/holiday-vietnam-2019-calendar.jpeg
+thumbnail: /assets/images/2019/holiday-vietnam-2019-calendar.jpeg
 comments:  true
 ---
 
