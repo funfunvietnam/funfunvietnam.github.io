@@ -13,7 +13,7 @@ Recently, HTV3 DreamsTV release a video about a traditional children's Tết son
 
 When you're watching the video, you can notice that the characters hold a bamboo tube and shake it with coin sound. That is one of the custom: storing money in a piggy bank.
 
-Saving money is a good habit for educating children about financial concept. However, *the coin things* right now is disappear in current Vietnam situation. Because of the inflation of this country, it only remains bill, no more coin anymore.
+Saving money is a good habit for educating children about financial concept. However, *the coin things* right now is disappear in Vietnam. Because of the inflation of this country, it only remains bill, no more coin anymore.
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VJ5W2tfGhVw" allowfullscreen></iframe>
