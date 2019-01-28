@@ -1,16 +1,8 @@
 <style>
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-html {
-  font-family: 'Merriweather', serif;
-  font-size: 14px;
-}
-body {
-  padding: 5px 10px;
-}
-
 svg.svg-states {
   display: block;
   width: 100%;
+  max-height: 514px;
 }
 #states *.on {
   fill: red;
@@ -60,16 +52,21 @@ svg.svg-states {
 #state-info .card-body {
   padding: .5rem 1.25rem;
 }
+
+#hover-info {
+  visibility: hidden;
+  position: fixed;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  border: #eee 1px solid;
+}
+#hover-info.on {
+  visibility: visible;
+}
 </style>
 
 <div class="container-fluid">
-  <div class="row d-flex justify-content-end mb-2">
-    <div id="btn-civil" class="btn btn-sm btn-primary mr-2">Civil</div>
-    <div id="btn-military" class="btn btn-sm btn-danger mr-2">Military</div>
-    <div id="btn-proposed" class="btn btn-sm btn-info mr-2">Proposed</div>
-    <div id="btn-former" class="btn btn-sm btn-success mr-2">Former</div>
-    <div id="btn-none" class="btn btn-sm btn-secondary mr-2">None</div>
-  </div>
   <div class="row mb-2">
     <div class="col-6">
 <svg  viewBox="0 0 400 820" class="svg-states">
@@ -147,6 +144,14 @@ svg.svg-states {
     </div>
   </div>
 
+  <div class="row d-flex justify-content-end mb-2">
+    <div id="btn-civil" class="btn btn-sm btn-primary mr-2">Civil</div>
+    <div id="btn-military" class="btn btn-sm btn-danger mr-2">Military</div>
+    <div id="btn-proposed" class="btn btn-sm btn-info mr-2">Proposed</div>
+    <div id="btn-former" class="btn btn-sm btn-success mr-2">Former</div>
+    <div id="btn-none" class="btn btn-sm btn-secondary mr-2">None</div>
+  </div>
+
   <div class="row">
     <div class="card border-secondary bg-transparent w-100 mb-3">
       <div class="card-header">
@@ -156,6 +161,8 @@ svg.svg-states {
       </div>
     </div>
   </div>
+
+  <div id="hover-info"></div>
 </div>
 
 <script>
@@ -199,15 +206,24 @@ var wordStates = Object.keys(PROVINCES).map(function(key, index) {
   li.province = state.province
   li.innerHTML = `<span>${state.province}</span>`
   li.classList = 'list-group-item d-flex justify-content-between align-items-center'
+  // var s = document.createElement('span')
+  // if (state.proposed > 0) s.appendChild(createAmount(state.proposed, 'info'))
+  // if (state.former > 0) s.appendChild(createAmount(state.former, 'success'))
+  // if (state.military > 0) s.appendChild(createAmount(state.military, 'danger'))
+  // if (state.civil > 0) s.appendChild(createAmount(state.civil, 'primary'))
+  li.appendChild(gerAirportAmountsBadgeGroup(state))
+  ul.appendChild(li)
+  return li
+})
+
+function gerAirportAmountsBadgeGroup(state) {
   var s = document.createElement('span')
   if (state.proposed > 0) s.appendChild(createAmount(state.proposed, 'info'))
   if (state.former > 0) s.appendChild(createAmount(state.former, 'success'))
   if (state.military > 0) s.appendChild(createAmount(state.military, 'danger'))
   if (state.civil > 0) s.appendChild(createAmount(state.civil, 'primary'))
-  li.appendChild(s)
-  ul.appendChild(li)
-  return li
-})
+  return s;
+}
 
 function createAmount(amount, color) {
   var b = document.createElement('span')
@@ -218,6 +234,7 @@ function createAmount(amount, color) {
 
 var currState = document.querySelector('#selected-state')
 var output = document.querySelector('#state-info')
+var hoverInfo = document.querySelector('#hover-info')
 
 function removeAllOn() {
   wordStates.forEach(function(el) {
@@ -226,6 +243,7 @@ function removeAllOn() {
   svgStates.forEach(function(el) {
     el.classList.remove("on");
   });
+  $(hoverInfo).removeClass('on')
 }
 
 function addOnFromList(el) {
@@ -235,11 +253,25 @@ function addOnFromList(el) {
   svgState.classList.add("on");
 }
 
-function addOnFromState(el) {
+function addOnFromState(el, e) {
   let id = el.getAttribute("id");
   let wordState = document.querySelector(`.list-of-states #${id}`);
   el.classList.add("on");
   wordState.classList.add("on");
+
+  if (e) {
+    $(hoverInfo).empty()
+    var div = document.createElement('div')
+    var p = document.createElement('p')
+    p.innerHTML = PROVINCES[id].province
+    div.appendChild(p)
+    div.appendChild(gerAirportAmountsBadgeGroup(PROVINCES[id]))
+    hoverInfo.appendChild(div)
+    // hoverInfo.innerHTML = PROVINCES[id].province
+    hoverInfo.classList.add('on')
+    $(hoverInfo).css('top', e.clientY + 10)
+    $(hoverInfo).css('left', e.clientX + 30)
+  }
 }
 
 function addOnForBoth(id) {
@@ -254,12 +286,9 @@ function showStateInfo(el) {
   let id = el.getAttribute("id");
   currState.innerHTML = PROVINCES[id].province
 
-  let airports = PROVINCES[id]['airport ids'].split(',')
-                  .filter(function(s){return s.length>0;})
-  if (airports.length > 0) {
-    airports = airports.map(function(id){return AIRPORTS[id]})
+  let airports = getAirports(id);
+  if (airports) {
     output.innerHTML = airports.reduce(function(accu, curr){
-
       let color = typeColor(curr["type"]);
       return accu + `<div class="card text-${color} border-${color} bg-transparent mb-3">
         <div class="card-header"><b>${curr["airport name"]}</div>
@@ -278,6 +307,15 @@ function showStateInfo(el) {
   } else {
     output.innerHTML = '<span class="badge badge-pill badge-light">No airport exist</span>'
   }
+}
+
+function getAirports(provinceId) {
+  let airports = PROVINCES[provinceId]['airport ids'].split(',')
+                  .filter(function(s){return s.length>0;})
+  if (airports.length > 0) {
+    return airports.map(function(id){return AIRPORTS[id]})
+  }
+  return null;
 }
 
 function typeColor(type) {
@@ -315,16 +353,16 @@ wordStates.forEach(function(el) {
 });
 
 svgStates.forEach(function(el) {
-  el.addEventListener("mouseenter", function() {
-    addOnFromState(el);
+  el.addEventListener("mouseenter", function(e) {
+    addOnFromState(el, e);
   });
   el.addEventListener("mouseleave", function() {
      removeAllOn();
   });
   
-  el.addEventListener("touchstart", function() {
+  el.addEventListener("touchstart", function(e) {
     removeAllOn();
-    addOnFromState(el);
+    addOnFromState(el, e);
   });
   
   el.addEventListener("click", function() {
@@ -370,6 +408,3 @@ Object.keys(groups).map(function(type){
   })
 })
 </script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>

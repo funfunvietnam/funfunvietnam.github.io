@@ -1,0 +1,57 @@
+<div class="col-12 col-md-3 sidebar">
+  <div class="row no-gutters">
+    <div class="sb-group card col-12 mb-4">
+      <div class="card-body">
+        <h4 class="card-title">POPULAR POSTS</h4>
+        <table class="table table-sm mb-0">
+          <tbody>
+            {% for tag in site.tags %}
+              {% if tag[0] == "hot" %}
+                {% for post in tag[1] %}
+                  <tr>
+                    <td>
+                      <a href="{{ post.url }}">
+                        <div>
+                          <p>{{ post.title }}</p>
+                          <p class="text-muted text-right small">{{ post.date | date: "%B %-d, %Y" }}</p>
+                        </div>
+                      </a>
+                    </td>
+                  </tr>
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="row no-gutters">
+    <div class="sb-group card col-12 mb-4">
+      <div class="card-body">
+        <h4 class="card-title">RECOMMEND</h4>
+        <table class="table table-sm mb-0">
+          <tbody>
+            {% for tag in site.tags %}
+              {% if tag[0] == "recommend" %}
+                {% for post in tag[1] %}
+                  <tr>
+                    <td>
+                      <a href="{{ post.url }}">
+                        <div>
+                          <p>{{ post.title }}</p>
+                          <p class="text-muted text-right small">{{ post.date | date: "%B %-d, %Y" }}</p>
+                        </div>
+                      </a>
+                    </td>
+                  </tr>
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

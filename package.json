@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "JEKYLL_ENV=local jekyll serve --watch",
-    "build": "JEKYLL_ENV=production jekyll build"
+    "dev": "JEKYLL_ENV=local bundle exec jekyll serve --watch",
+    "build": "JEKYLL_ENV=production bundle exec jekyll build"
   },
   "repository": {
     "type": "git",

@@ -4,6 +4,7 @@ title:     National Cinema Center at Hanoi, Vietnam
 keywords:  national cinema center,cinema hanoi,cgv,lotte
 thumbnail: /assets/images/2019/hanoi-national-cinema-center-building.png
 comments:  true
+tags: [hot]
 ---
 
 Want to see a movie at Hanoi? If you lookup on Google Map, you must found that the popluar cniemas in Vietnam are CGV cinema and Lotte cinema. Both of these cinema chains belong to South Korea companies. Their amount of the commented stars in Google Map are about 4.2 ~ 4.3. It has a stable service quality. But today, I want to mention about a Vietnamese cinema, called **National Cinema Center** (*Trung tâm Chiếu Phim Quốc Gia*).

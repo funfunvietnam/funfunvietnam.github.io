@@ -2,6 +2,7 @@
 layout:   post
 title:    How I learnt Vietnamese - part 2
 keywords: learn,Vietnamese,books,recommended,how to learn vietnamese
+thumbnail: /assets/images/vietnamese-conversation.png
 comments: true
 ---
 How long does it take to improve Vietnamese skill from speaking few limited vocabulary to expressing opinion? For me, this phase took me around 6 months.

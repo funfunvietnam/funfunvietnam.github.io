@@ -34,7 +34,8 @@ gadflag: true
 
 # Build settings
 markdown: kramdown
-
+sass:
+  style: compressed
 plugins:
   - jekyll-sitemap
   
