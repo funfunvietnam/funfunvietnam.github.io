@@ -206,11 +206,6 @@ var wordStates = Object.keys(PROVINCES).map(function(key, index) {
   li.province = state.province
   li.innerHTML = `<span>${state.province}</span>`
   li.classList = 'list-group-item d-flex justify-content-between align-items-center'
-  // var s = document.createElement('span')
-  // if (state.proposed > 0) s.appendChild(createAmount(state.proposed, 'info'))
-  // if (state.former > 0) s.appendChild(createAmount(state.former, 'success'))
-  // if (state.military > 0) s.appendChild(createAmount(state.military, 'danger'))
-  // if (state.civil > 0) s.appendChild(createAmount(state.civil, 'primary'))
   li.appendChild(gerAirportAmountsBadgeGroup(state))
   ul.appendChild(li)
   return li
@@ -267,7 +262,6 @@ function addOnFromState(el, e) {
     div.appendChild(p)
     div.appendChild(gerAirportAmountsBadgeGroup(PROVINCES[id]))
     hoverInfo.appendChild(div)
-    // hoverInfo.innerHTML = PROVINCES[id].province
     hoverInfo.classList.add('on')
     $(hoverInfo).css('top', e.clientY + 10)
     $(hoverInfo).css('left', e.clientX + 30)
