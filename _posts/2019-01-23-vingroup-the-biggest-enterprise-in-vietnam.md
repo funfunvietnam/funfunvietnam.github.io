@@ -2,6 +2,7 @@
 layout: post
 title: VinGroup - the biggest enterprise in Vietnam
 date: 2019-01-23T06:16:26.183Z
+description: VinGroup is amazing!!!
 thumbnail: /assets/images/uploads/vingroup-logos.png
 keywords: >-
   VinGroup,biggest enterprise vietnam,biggest company

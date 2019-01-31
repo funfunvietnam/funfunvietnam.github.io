@@ -2,6 +2,7 @@
 layout:    post
 title:     Interesting custom on Vietnamese Lunar New Year
 keywords:  Lunar New Year,Vietnam,custom
+description: An interesting custom about Xông Nhà
 thumbnail: /assets/images/2019/interesting-custom-vietnamese-new-year.jpeg
 comments:  true
 ---

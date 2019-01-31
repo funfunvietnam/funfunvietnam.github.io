@@ -2,6 +2,7 @@
 layout: post
 title: A Traditional Children's Song for Vietnamese Tết Festival
 date: 2019-01-24T19:07:48.349Z
+description: Tết Tết Tết Tết đến rồi!
 thumbnailref: https://img.youtube.com/vi/VJ5W2tfGhVw/0.jpg
 keywords: Vietnamese Tết festival song,traditional children's song
 comments: true

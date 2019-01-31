@@ -2,6 +2,7 @@
 layout: post
 title: The Amused Worry for Tet Holiday in MV "BÙA ĂN"
 date: 2019-01-30T10:07:48.349Z
+description: Tết Tết Tết Tết đến rồi! Ăn hay không ăn, không ăn hay ăn nói một lời?
 thumbnailref: https://img.youtube.com/vi/k7gQsWvUFEE/0.jpg
 keywords: Greetings for Vietnamese Tết festival,Chúc Mừng Năm Mới
 comments: true

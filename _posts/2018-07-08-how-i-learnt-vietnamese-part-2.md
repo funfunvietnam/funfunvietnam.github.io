@@ -2,6 +2,7 @@
 layout:   post
 title:    How I learnt Vietnamese - part 2
 keywords: learn,Vietnamese,books,recommended,how to learn vietnamese
+description: express my Vietnamese learning path
 thumbnail: /assets/images/vietnamese-conversation.png
 comments: true
 ---

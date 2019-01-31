@@ -2,7 +2,7 @@
 layout:   post
 title:    How I learnt Vietnamese
 keywords: learn,Vietnamese,books,recommended,how to learn vietnamese
-desc:     Last year, I have a plan to travel to Vietnam as a backpacker. It’s my first time to visit this country, so I thought I should learn some Vietnamese. Then, I bought a Vietnamese language book for Chinese beginner.
+description: Last year, I have a plan to travel to Vietnam as a backpacker. It’s my first time to visit this country, so I thought I should learn some Vietnamese. Then, I bought a Vietnamese language book for Chinese beginner.
 thumbnail: /assets/images/vietnamese-conversation.png
 comments: true
 ---
