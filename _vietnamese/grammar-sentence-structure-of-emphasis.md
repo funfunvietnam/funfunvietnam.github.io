@@ -2,8 +2,8 @@
 layout: vietnamese
 title: Sentence Structure of Emphasis
 date: 2019-02-01
-keywords: Vietnamese Sentence Structure of Emphasize
-description: Vietnamese Sentence Structure of Emphasize
+keywords: Vietnamese Sentence Structure of Emphasis
+description: Vietnamese Sentence Structure of Emphasis
 comments: true
 categories: [grammar, intermediate]
 ---

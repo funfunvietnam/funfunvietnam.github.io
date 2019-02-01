@@ -1,4 +1,4 @@
-{% for post in include.posts %}
+{% for post in include.posts reversed %}
 <div class="flex-item-max-2-col w-100 h-100">
   <a href="{{ post.url | prepend: site.baseurl }}" class="card mb-4">
     <span class="img-container">
