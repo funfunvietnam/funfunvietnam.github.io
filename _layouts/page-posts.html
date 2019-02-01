@@ -1,0 +1,20 @@
+---
+layout: index-page
+---
+{% for post in site.posts limit: page.page-limit offset: page.page-offset %}
+<div class="flex-item h-100">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="card mb-4">
+    <span class="img-container">
+      {% if post.thumbnailref %}
+      <img class="card-img-top" src="{{ post.thumbnailref }}">
+      {% elsif post.thumbnail %}
+      <img class="card-img-top" src="{{ post.thumbnail | prepend: site.baseurl }}">
+      {% endif %}
+    </span>
+    <div class="card-body ">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text text-right small">{{ post.date | date: "%B %-d, %Y" }}</p>
+    </div>
+  </a>
+</div>
+{% endfor %}

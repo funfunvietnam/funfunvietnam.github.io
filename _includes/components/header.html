@@ -3,11 +3,13 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsCollapse" aria-controls="navbarsCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarsCollapse">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="{{ site.baseurl }}/">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item{% if page.layout == 'page-posts' or layout.header == 'post' %} active{% endif %}">
+        <a class="nav-link" href="{{ site.baseurl }}/pages/posts/1.html">Posts <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item{% if page.layout == 'page-vietnamese' or layout.header == 'vietnamese' %} active{% endif %}">
+        <a class="nav-link" href="{{ site.baseurl }}/pages/vietnamese/1.html">Learn Vietnamese <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>

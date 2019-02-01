@@ -3,7 +3,7 @@ layout: post
 title: The most popular transportation in Hanoi
 description: Grab, the popular transportation in Hanoi
 thumbnailref: https://english.thesaigontimes.vn/Uploads/Articles04/58981/82b7f_grab.jpg
-keywords: Grab,popular transportation in Hanoi
+keywords: Grab,uber vietnam,taxi vietnam,bike vietnam,popular transportation in Hanoi
 comments: true
 tags: [recommend]
 ---

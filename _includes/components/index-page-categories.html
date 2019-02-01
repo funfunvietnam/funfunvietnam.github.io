@@ -1,0 +1,6 @@
+{% for c in post.categories %}
+  {% if c == "vocabulary" %}<span class="badge badge-success">{{ c }}</span>{% endif %}
+  {% if c == "grammar" %}<span class="badge badge-primary">{{ c }}</span>{% endif %}
+  {% if c == "beginner" %}<span class="badge badge-light">{{ c }}</span>{% endif %}
+  {% if c == "intermediate" %}<span class="badge badge-secondary">{{ c }}</span>{% endif %}
+{% endfor %}

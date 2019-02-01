@@ -1,0 +1,20 @@
+{% for post in include.posts %}
+<div class="flex-item-max-2-col w-100 h-100">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="card mb-4">
+    <span class="img-container">
+      {% if post.thumbnailref %}
+      <img class="card-img-top" src="{{ post.thumbnailref }}">
+      {% elsif post.thumbnail %}
+      <img class="card-img-top" src="{{ post.thumbnail | prepend: site.baseurl }}">
+      {% endif %}
+    </span>
+    <div class="card-body ">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <div class="card-text small d-flex justify-content-between">
+        <span>{% include components/index-page-categories.html %}</span>
+        <span>{{ post.date | date: "%B %-d, %Y" }}</span>
+      </div>
+    </div>
+  </a>
+</div>
+{% endfor %}

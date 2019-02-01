@@ -1,0 +1,10 @@
+<div class="row navi px-3 mb-3">
+  {% if page.page-prev %}
+  <a href="{{ page.page-prev | prepend: site.baseurl }}" class="navi-btn-prev col-6 text-center py-4"><h3>&laquo; PREV</h3></a>
+  {% else %}
+  <div class="col-6 text-center py-4"></div>
+  {% endif %}
+  {% if page.page-next %}
+  <a href="{{ page.page-next | prepend: site.baseurl }}" class="navi-btn-next col-6 text-center py-4"><h3>NEXT &raquo;</h3></a>
+  {% endif %}
+</div>

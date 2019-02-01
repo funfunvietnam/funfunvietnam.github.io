@@ -1,0 +1,9 @@
+---
+layout: index-page
+---
+{% assign voca = site.vietnamese | where: "categories", "vocabulary" %}
+{% assign grammars = site.vietnamese | where: "categories", "grammar" %}
+{% assign posts = voca | reversed | limit: page.page-limit | offset: page.page-offset %}
+
+{% include components/index-page-vietnamese-posts-header.html voca_size=voca.size grammar_size=grammars.size %}
+{% include components/index-page-flex-items-m2c.html posts=posts %}
