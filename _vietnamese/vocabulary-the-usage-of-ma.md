@@ -56,8 +56,8 @@ categories: [vocabulary, intermediate]
       <div class="col">
         <table class="table table-striped table-sm">
           <tbody>
-            <tr><td>Người xưa nói rất nhiều về việc chuyển nhà không làm vào tháng cô hồn <b>mà</b></td></tr>
-            <tr><td>Ancient people mention a lot about do to move house in ghost month.</td></tr>
+            <tr><td>Người xưa nói rất nhiều về <u>việc chuyển nhà không làm vào tháng cô hồn <b>mà</b></u></td></tr>
+            <tr><td>Ancient people mention a lot about <u>a thing that "Do not move house in ghost month"</u>.</td></tr>
             <tr><td>(The wise people already said that, you should believe it)</td></tr>
           </tbody>
         </table>
