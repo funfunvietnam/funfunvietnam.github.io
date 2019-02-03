@@ -1,9 +1,9 @@
 ---
 layout: vietnamese
 title: The Usage of " mà "
-date: 2019-02-02T13:07:48.349Z
-keywords: Vietnamese vocabulary for the usage of mà
-description: Vietnamese vocabulary for the usage of mà
+date: 2019-02-02
+keywords: Vietnamese vocabulary for the usage of mà.
+description: Vietnamese vocabulary for the usage of mà.
 comments: true
 categories: [vocabulary, intermediate]
 ---
@@ -38,10 +38,10 @@ categories: [vocabulary, intermediate]
       <div class="col">
         <table class="table table-striped table-sm">
           <tbody>
-            <tr><td>So với ăn cơm ở bên ngoài, tự nấu ăn sức khoẻ hơn mà mệt.</td></tr>
-            <tr><td>Compare with eating outside, self-cook is healthier but more tired.</td></tr>
-            <tr><td>Đi du lịch tốn tiền mà vui.</td></tr>
-            <tr><td>Traveling cost a lot of money but is fun.</td></tr>
+            <tr><td>So với ăn cơm ở bên ngoài, tự nấu ăn sức khoẻ hơn <b>mà</b> mệt.</td></tr>
+            <tr><td>Compare with eating outside, self-cook is healthier <b>but</b> more tired.</td></tr>
+            <tr><td>Đi du lịch tốn tiền <b>mà</b> vui.</td></tr>
+            <tr><td>Traveling cost a lot of money <b>but</b> is fun.</td></tr>
           </tbody>
         </table>
       </div>
@@ -56,14 +56,14 @@ categories: [vocabulary, intermediate]
       <div class="col">
         <table class="table table-striped table-sm">
           <tbody>
-            <tr><td>Người xưa nói rất nhiều về việc chuyển nhà không làm vào tháng cô hồn mà</td></tr>
+            <tr><td>Người xưa nói rất nhiều về việc chuyển nhà không làm vào tháng cô hồn <b>mà</b></td></tr>
             <tr><td>Ancient people mention a lot about do to move house in ghost month.</td></tr>
             <tr><td>(The wise people already said that, you should believe it)</td></tr>
           </tbody>
         </table>
         <table class="table table-striped table-sm">
           <tbody>
-            <tr><td>Tôi không thể nói tiếng Nga vì tôi là người Đài Loan mà.</td></tr>
+            <tr><td>Tôi không thể nói tiếng Nga vì tôi là người Đài Loan <b>mà</b>.</td></tr>
             <tr><td>I cannot speak Russian because I am Taiwanese.</td></tr>
             <tr><td>(It's obvious I cannot speak Russian because I am not Russian.)</td></tr>
           </tbody>
