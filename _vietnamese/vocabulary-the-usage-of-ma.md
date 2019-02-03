@@ -38,10 +38,10 @@ categories: [vocabulary, intermediate]
       <div class="col">
         <table class="table table-striped table-sm">
           <tbody>
-            <tr><td>So với ăn cơm ở bên ngoài, tự nấu ăn sức khoẻ hơn <b>mà</b> mệt.</td></tr>
-            <tr><td>Compare with eating outside, self-cook is healthier <b>but</b> more tired.</td></tr>
-            <tr><td>Đi du lịch tốn tiền <b>mà</b> vui.</td></tr>
-            <tr><td>Traveling cost a lot of money <b>but</b> is fun.</td></tr>
+            <tr><td>So với ăn cơm ở bên ngoài, <u>tự nấu ăn sức khoẻ hơn</u> <b>mà</b> <u>mệt</u>.</td></tr>
+            <tr><td>Compare with eating outside, <u>self-cook is healthier</u> <b>but</b> <u>more tired</u>.</td></tr>
+            <tr><td>Đi du lịch <u>tốn tiền</u> <b>mà</b> <u>vui</u>.</td></tr>
+            <tr><td>Traveling <u>cost a lot of money</u> <b>but</b> <u>is fun</u>.</td></tr>
           </tbody>
         </table>
       </div>
