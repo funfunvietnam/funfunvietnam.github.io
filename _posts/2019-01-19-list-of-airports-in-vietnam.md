@@ -14,7 +14,7 @@ How many airports in Vietnam? Five or six? As a foreigner, I've heard several ci
 
 According to Wikipedia, *Vietnam is divided into 58 provinces*, so... does that mean there are 58+ airports in Vietnam? For the satisfaction of my curiosity, I decied to find out the answer.
 
-I read two pages of Wikipedia about **List of airports in Vietnam**<a href="#ref-1">[1]</a> and **Provinces of Vietnam**<a href="#ref-1">[2]</a>. Then after orgainzing the information on these page, I found out the answer of airport amount is very close to my teacher's stand. However, the definition is quite different.
+I read two pages of Wikipedia about **List of airports in Vietnam**<a href="#ref-1">[1]</a> and **Provinces of Vietnam**<a href="#ref-1">[2]</a>. Then after orgainzing the information on these pages, I found out the answer of airport amount is very close to my teacher's stand. However, the definition is quite different.
 
 In order to understand the analysis easily, I do some data visualization work as below. Click each buttons on the map or list can show the detail.
 
