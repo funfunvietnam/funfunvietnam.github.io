@@ -16,6 +16,7 @@ As a foreigner who lives in Vietnam, it is easy to notice that a lot of great se
 
 ---
 
+<i id="commerce"></i>
 ## Commerce
 
 ![](https://static.vingroup.net/vgh_files/assets/images/icons/vincommerce.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/vinmart.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/vinmartplus.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/vinpro.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/vingroupcard.png) ![](https://static.vingroup.net/vgh_files/assets/images/icons/adayroi.png)
