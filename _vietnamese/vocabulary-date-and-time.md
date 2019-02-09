@@ -6,6 +6,7 @@ keywords: Vietnamese vocabulary for Date and Time
 description: Vietnamese vocabulary for Date and Time
 comments: true
 categories: [vocabulary, beginner]
+tags: [hot]
 ---
 
 ## Words of time

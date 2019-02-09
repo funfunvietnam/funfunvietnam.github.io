@@ -6,6 +6,7 @@ keywords: Vietnamese Zodiac
 description: Vietnamese Zodiac
 comments: true
 categories: [vocabulary, beginner]
+tags: [hot]
 ---
 
 {% include components/table.html header="#,VN,VN-eb,EN" data=site.data.vietnamese.vocabulary.Animal_-_zodiac %}

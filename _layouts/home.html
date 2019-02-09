@@ -1,0 +1,35 @@
+---
+layout: index-page
+---
+<div class="flex-container d-flex flex-wrap justify-content-start">
+{% include components/index-page/category-header.html title="Latest Posts" %}
+{% for post in site.posts limit: 6 %}
+<div class="flex-item h-100">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="card mb-4">
+    <span class="img-container">
+      {% if post.thumbnailref %}
+      <img class="card-img-top" src="{{ post.thumbnailref }}">
+      {% elsif post.thumbnail %}
+      <img class="card-img-top" src="{{ post.thumbnail | prepend: site.baseurl }}">
+      {% endif %}
+    </span>
+    <div class="card-body ">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text text-right small">{{ post.date | date: "%B %-d, %Y" }}</p>
+    </div>
+  </a>
+</div>
+{% endfor %}
+</div>
+{% assign link = site.baseurl | append: page.page-more-posts %}
+{% include components/navigation.html next=link next-title="More" %}
+
+{% include plugins/google-ad-automatic-size.html %}
+
+<div class="flex-container d-flex flex-wrap justify-content-start">
+{% include components/index-page/category-header.html title="Learn Vietnamese" %}
+{% assign posts = site.vietnamese | where: "tags", "hot" %}
+{% include components/index-page/flex-items-m2c.html posts=posts %}
+</div>
+{% assign link = site.baseurl | append: page.page-more-vietnamese %}
+{% include components/navigation.html next=link next-title="More" %}

@@ -1,0 +1,10 @@
+<div class="row navi px-3 mb-3">
+  {% if include.prev %}
+  <a href="{{ include.prev | prepend: site.baseurl }}" class="navi-btn-prev col-6 text-center py-4"><h3>&laquo; {{ include.prev-title }}</h3></a>
+  {% else %}
+  <div class="col-6 text-center py-4"></div>
+  {% endif %}
+  {% if include.next %}
+  <a href="{{ include.next | prepend: site.baseurl }}" class="navi-btn-next col-6 text-center py-4"><h3>{{ include.next-title }} &raquo;</h3></a>
+  {% endif %}
+</div>

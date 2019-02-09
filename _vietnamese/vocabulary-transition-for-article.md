@@ -6,6 +6,7 @@ keywords: Vietnamese vocabulary for Transition for article
 description: Vietnamese vocabulary for Transition for article
 comments: true
 categories: [vocabulary, intermediate]
+tags: [hot]
 ---
 
 ## Time transition

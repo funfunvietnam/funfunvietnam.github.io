@@ -6,6 +6,7 @@ keywords: Vietnamese vocabulary, Modal particle of mới and đã
 description: Vietnamese vocabulary, Modal particle of mới and đã
 comments: true
 categories: [vocabulary, beginner]
+tags: [hot]
 ---
 
 <table class="table table-striped table-sm">

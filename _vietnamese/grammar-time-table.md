@@ -6,6 +6,7 @@ keywords: vocabulary for Date and Time
 description: vocabulary for Date and Time
 comments: true
 categories: [grammar, beginner]
+tags: [hot]
 ---
 <style>
 table thead th {text-align: center;}

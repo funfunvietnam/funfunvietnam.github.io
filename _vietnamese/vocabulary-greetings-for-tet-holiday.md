@@ -6,6 +6,7 @@ keywords: Vietnamese greeting for Tet Holiday
 description: Vietnamese greeting for Tet Holiday
 comments: true
 categories: [vocabulary, intermediate]
+tags: [hot]
 ---
 {% include components/table.html header="#,VN,EN" data=site.data.vietnamese.vocabulary.Holiday_-_greetings %}
 

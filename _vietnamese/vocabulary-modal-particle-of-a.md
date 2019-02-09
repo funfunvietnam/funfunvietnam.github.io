@@ -6,6 +6,7 @@ keywords: Vietnamese vocabulary, Modal particle of à
 description: Vietnamese vocabulary, Modal particle of à
 comments: true
 categories: [vocabulary, beginner]
+tags: [hot]
 ---
 
 ### à has 2 meanings

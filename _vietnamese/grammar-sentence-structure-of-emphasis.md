@@ -6,6 +6,7 @@ keywords: Vietnamese Sentence Structure of Emphasis
 description: Vietnamese Sentence Structure of Emphasis
 comments: true
 categories: [grammar, intermediate]
+tags: [hot]
 ---
 <div class="container">
   <div class="row d-flex-justify-start align-items-center">
