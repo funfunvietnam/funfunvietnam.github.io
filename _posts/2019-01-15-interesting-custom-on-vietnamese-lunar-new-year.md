@@ -13,4 +13,4 @@ In the first three days, people used to visit family and friends, speak good wor
 
 However, the most intestesting custom, in my opinion, is about `Xông Nhà`. This is a person who be invited as the first visitor to visit a family's home. People believe this first visitor will decide the whole year fortune for their family, so it makes the candidate selection carefully.
 
-![]({{ site.baseurl }}/assets/images/2019/interesting-custom-vietnamese-new-year.jpeg)
+![](/assets/images/2019/interesting-custom-vietnamese-new-year.jpeg)

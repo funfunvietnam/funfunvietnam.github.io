@@ -10,7 +10,7 @@ tags: [hot]
 
 How many airports in Vietnam? Five or six? As a foreigner, I've heard several cities which famous in tourism. For example, Hà Nội, Hồ Chí Minh, Đà Nẵng, Hải Phòng... So, I think the answer of 5 or 6 might be closed. But the teacher who teach me Vietnamese told me that **Each province has at least one airport**.
 
-![]({{ site.baseurl }}/assets/images/2019/list-of-airports-in-vietnam.jpeg)
+![List of airports in Vietnam](/assets/images/2019/list-of-airports-in-vietnam.jpeg)
 
 According to Wikipedia, *Vietnam is divided into 58 provinces*, so... does that mean there are 58+ airports in Vietnam? For the satisfaction of my curiosity, I decied to find out the answer.
 

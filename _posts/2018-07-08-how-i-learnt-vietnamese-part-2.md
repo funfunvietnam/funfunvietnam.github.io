@@ -13,7 +13,7 @@ In the beginning of 2018, I decided to move to Hanoi and attend a small group of
 <a id="the-series-of-dai-hoc-quoc-gia-hanoi"></a>
 <figure>
   <div class="thumbnail">
-    <img src="{{ site.baseurl }}/assets/images/vietnamese-book-dai-hoc-quoc-gia-hanoi.png" alt="image">
+    <img src="/assets/images/vietnamese-book-dai-hoc-quoc-gia-hanoi.png" alt="Vietnamese beginner textbook">
   </div>
   <figcaption>The series of Đại Học Quốc Gia Hà Nội, which designed for non-native speaker</figcaption>
 </figure>
@@ -29,14 +29,14 @@ The series of Đại Học Quốc Gia Hà Nội contains 4 textbooks and 1 gramm
 **Grammar book**:
   * A Concise Vietnamese Grammar
 
-Compare with my first book <a href="{{ site.baseurl }}/2018/07/03/how-i-learnt-vietnamese.html" target="_blank">(我的第一本越南語課本)</a>, this series provides more exercise for reading, listening, speaking, and writing skills. And the content more focus on Vietnam and Hanoi. Like Hồ Gươm, Phố cổ Hội An, Vietnamese food, weather in Vietnam, and the most popular sport in Vietnam...
+Compare with my first book <a href="/2018/07/03/how-i-learnt-vietnamese.html" target="_blank">(我的第一本越南語課本)</a>, this series provides more exercise for reading, listening, speaking, and writing skills. And the content more focus on Vietnam and Hanoi. Like Hồ Gươm, Phố cổ Hội An, Vietnamese food, weather in Vietnam, and the most popular sport in Vietnam...
 
 However, as I follow the <a href="#the-series-of-dai-hoc-quoc-gia-hanoi">the series of Đại Học Quốc Gia Hà Nội</a>, I found the degree of difficulty is increasing very fast. When I studied over 70% of the first book, it began to take a lot of time to continue the progress. I guess the reason is I haven’t master the vocabulary I’ve learnt before. After realizing this point, I began to study the the series of Viện Phát Triển Ngôn Ngữ.
 
 <a id="the-series-of-viet-phat-trien-ngon-ngu"></a>
 <figure>
   <div class="thumbnail">
-    <img src="{{ site.baseurl }}/assets/images/vietnamese-book-vien-phat-trien-ngon-ngu.png" alt="image">
+    <img src="/assets/images/vietnamese-book-vien-phat-trien-ngon-ngu.png" alt="Vietnamese beginner textbook">
   </div>
   <figcaption>The series of Viện Phát Triển Ngôn Ngữ, which also designed for non-native speaker</figcaption>
   <figcaption>[ISBN]

@@ -7,13 +7,13 @@ thumbnail: /assets/images/vietnamese-conversation.png
 comments: true
 ---
 
-![]({{ site.baseurl }}/assets/images/vietnamese-conversation.png)
+![Fun Fun Vietname](/assets/images/vietnamese-conversation.png)
 
 Last year, I have a plan to travel to Vietnam as a backpacker. It’s my first time to visit this country, so I thought I should learn some Vietnamese. Then, I bought a Vietnamese language book for Chinese beginner.
 
 <figure>
   <div class="thumbnail">
-    <img src="{{ site.baseurl }}/assets/images/my-first-vietnamese-book.png" alt="image">
+    <img src="/assets/images/my-first-vietnamese-book.png" alt="Vietnamese beginner textbook">
   </div>
   <figcaption>
     我的第一本越南語課本 (208 pages, 16 lessons) ISBN：9789866077548

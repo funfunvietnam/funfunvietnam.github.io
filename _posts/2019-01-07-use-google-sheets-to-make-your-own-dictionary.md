@@ -14,10 +14,10 @@ If you have experience to lookup Vietnamese words in English dictionary, you mus
 
 When we lookup the words, **chính phủ** and **chính quyền**, both of them are translated as **government**.
 
-![]({{ site.baseurl }}/assets/images/2019/lookup-dictionary-in-google-translate.png)
+![](/assets/images/2019/lookup-dictionary-in-google-translate.png)
 <figcaption>Translated by Google Translate</figcaption>
 
-![]({{ site.baseurl }}/assets/images/2019/lookup-dictionary-in-TFlat.png)
+![](/assets/images/2019/lookup-dictionary-in-TFlat.png)
 <figcaption>Translated by English Vietnamese Dictionary TFlat</figcaption>
 
 In fact, they indicate to different types of government:
@@ -29,13 +29,13 @@ In fact, they indicate to different types of government:
 
 > ex: the Hanoi government
 
-![]({{ site.baseurl }}/assets/images/2019/flashcard_chính_phủ_chính_quyền.png)
+![chính phủ vs chính quyền](/assets/images/2019/flashcard_chính_phủ_chính_quyền.png)
 
 So, for the learning purpose, record these subtle details, I used Google Sheets to build a dictionary with search function and automatic translate by Google Translate. In addition, I've shared it to public. You can download this template to build your own personal dictionary.
 
 <a href="https://docs.google.com/spreadsheets/d/1VZshDXLVmui1-YJ8G6jGwvlmtnx-PIByAWwsAoVyB9M/edit?usp=sharing" target="_blank" rel="nofollow"><i class="fa fa-download"></i> Download Template</a>
 
-![dictionary-template-thumbnail]({{ site.baseurl }}/assets/images/2019/dictionary-template-thumbnail.png)
+![google sheets for dictionary template](/assets/images/2019/dictionary-template-thumbnail.png)
 
 <figcaption>Dictionary Template, powered by Google Sheets</figcaption>
 
@@ -47,42 +47,42 @@ Please follow these steps to use this template:
 
 * Add new vocabulary to `data` sheet
 
-![]({{ site.baseurl }}/assets/images/2019/dictionary-template-tutorial-setp-1-1.png)
+![](/assets/images/2019/dictionary-template-tutorial-setp-1-1.png)
 
 * Check the automatic translation in **Google Translate** column. If you are not satisfied with it, you can make a revision in **Revised** column.
 
-![]({{ site.baseurl }}/assets/images/2019/dictionary-template-tutorial-setp-1-2.png)
+![](/assets/images/2019/dictionary-template-tutorial-setp-1-2.png)
 
 * [optional] - Add an example sentence in **example** column. You also can make a revision in **Revised ex** column if you are not satisfied with the translation.
 
-![]({{ site.baseurl }}/assets/images/2019/dictionary-template-tutorial-setp-1-3.png)
-![]({{ site.baseurl }}/assets/images/2019/dictionary-template-tutorial-setp-1-4.png)
+![](/assets/images/2019/dictionary-template-tutorial-setp-1-3.png)
+![](/assets/images/2019/dictionary-template-tutorial-setp-1-4.png)
 
 ##### Step 2 - Add new category - [optional]
 
 * Add new category to `category` sheet, and go back to `data` sheet to select an appropriate category for the new record.
 
-![]({{ site.baseurl }}/assets/images/2019/dictionary-template-tutorial-setp-2-1.png)
+![](/assets/images/2019/dictionary-template-tutorial-setp-2-1.png)
 
 ##### Step 3 - Language Setting - [Optional]
 
 * If you want to use this template in other language, you can modify the language code on the row 2 in the `data` sheet.
 
-![]({{ site.baseurl }}/assets/images/2019/dictionary-template-tutorial-setp-3-1.png)
+![](/assets/images/2019/dictionary-template-tutorial-setp-3-1.png)
 
 * Lookup the language code you wanted in the `lang code` sheet
 
-![]({{ site.baseurl }}/assets/images/2019/dictionary-template-tutorial-setp-3-2.png)
+![](/assets/images/2019/dictionary-template-tutorial-setp-3-2.png)
 
 ##### Step 4 - Search record in the dashboard
 
 * Move to the `Dashboard` sheet, and search vocabualry in **E** column
 
-![]({{ site.baseurl }}/assets/images/2019/dictionary-template-tutorial-setp-4-1.png)
+![](/assets/images/2019/dictionary-template-tutorial-setp-4-1.png)
 
 * You also can search translated word in **E** column, or even search both of searching conditions to find your records.
 
-![]({{ site.baseurl }}/assets/images/2019/dictionary-template-tutorial-setp-4-2.png)
+![](/assets/images/2019/dictionary-template-tutorial-setp-4-2.png)
 
 ---
 

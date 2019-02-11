@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Tutorial - Deposit money into Viettel prepaid card
-description: Tutorial - Deposit money into Viettel prepaid card
+title: Deposit money into Viettel prepaid card
+description: Deposit money into Viettel prepaid card
 thumbnailref: http://viettel.com.vn/sites/default/files/styles/header/public/shutterstock_258562604_0.jpg
 keywords: tutorial,deposit money,Viettel prepaid card,Viettel SIM card
 comments: true
-tags: [recommend]
 ---
 
 ![](http://viettel.com.vn/sites/default/files/styles/header/public/shutterstock_258562604_0.jpg)
@@ -31,26 +30,26 @@ Here, I want to share how to deposit money into Viettel prepaid card.
 
 **Begin to deposit**. The card likes the images below:
 
-![](/assets/images/2019/viettel-prepaid-card-deposit-1.png)
+![Viettel prepaid card front face](/assets/images/2019/viettel-prepaid-card-deposit-1.png)
 
-![](/assets/images/2019/viettel-prepaid-card-deposit-2.png)
+![Viettel prepaid card bace face](/assets/images/2019/viettel-prepaid-card-deposit-2.png)
 
 And the step is super easy. Remove the protected layer (200.000Đ) to get a card number. Then press `*100*Card_number#` to deposit money into your SIM card. You also can confirm your blance by press `*101#`. If you do, you will see this:
 
-![](/assets/images/2019/viettel-prepaid-card-deposit-3.png)
+![Viettel prepaid card deposit money](/assets/images/2019/viettel-prepaid-card-deposit-3.png)
 
 * **STB** is your phone number.
 * **TK goc** is your current blance.
 
 The step is easy right? In addition, a benefit of using Viettel is their regular promotion event. Like the image below, every month has once or twice promotion event, which can gain **20% extra credit** of free call for dailing to Viettel number if you deposit in specific days. You will receive messages from Viettel every month like this.
 
-![](/assets/images/2019/viettel-prepaid-card-deposit-5.jpg)
+![Viettel prepaid card advertisment](/assets/images/2019/viettel-prepaid-card-deposit-5.jpg)
 
 For example, the message from 30, January 2019, said: <u>If you deposit during 31/1 ~ 01/02, you will gain 20% credit as KM (Khuyến mại)</u>, which can dail to a Viettel phone number for free.
 
 So... to gain the extra credit, you need to dial `*102#` after depositing. Then you will see this:
 
-![](/assets/images/2019/viettel-prepaid-card-deposit-4.png)
+![Viettel prepaid card Khuyến mại](/assets/images/2019/viettel-prepaid-card-deposit-4.png)
 
 To sum up:
 

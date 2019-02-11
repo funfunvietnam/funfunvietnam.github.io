@@ -10,7 +10,7 @@ tags: [hot]
 
 Want to see a movie at Hanoi? If you lookup on Google Map, you must found that the popluar cniemas in Vietnam are CGV cinema and Lotte cinema. Both of these cinema chains belong to South Korea companies. Their amount of the commented stars in Google Map are about 4.2 ~ 4.3. It has a stable service quality. But today, I want to mention about a Vietnamese cinema, called **National Cinema Center** (*Trung tâm Chiếu Phim Quốc Gia*).
 
-![]({{ site.baseurl }}/assets/images/2019/hanoi-national-cinema-center-building.png)
+![National Cinema Center at Hanoi](/assets/images/2019/hanoi-national-cinema-center-building.png)
 
 <figcaption>National Cinema Center / Trung tâm Chiếu Phim Quốc Gia</figcaption>
 
@@ -44,24 +44,7 @@ The next joyful thing is that they collaborate with other organizations to host 
 
 The address of National Cinema Center is *87 Láng Hạ, Quận Ba Đình, Tp. Hà Nội*. Located at central Hanoi city. Next to cinema is **Indira Gandhi Park**. People do exercise here, even fishing in the lake. If your movie havn't started, you could consider relaxing at here.
 
-<style>
-  .google-maps {
-    position: relative;
-    padding-bottom: 60%; // This is the aspect ratio
-    height: 0;
-    overflow: hidden;
-  }
-  .google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-  }
-</style>
-<div class="google-maps">
-  <iframe width="600" height="350" src="https://maps.google.com/maps?q=national%20cinema%20center&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0"></iframe>
-</div>
+{% include plugins/goolge-map-rwd-embed.html link="https://maps.google.com/maps?q=national%20cinema%20center&t=&z=15&ie=UTF8&iwloc=&output=embed" %}
 
 ---
 
