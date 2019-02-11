@@ -3,7 +3,7 @@ layout: post
 title: 5 of the Oldest Universities in Vietnam
 description: Discover the oldest universities in Vietnam
 thumbnailref: http://www.vnpost.vn/Portals/0/anh%20tin%20tuc/2018-1/Thang%2011/tem.jpg?ver=2018-11-19-140603-410
-keywords: Schools of Vietnam over 100 years old
+keywords: oldest universities Vietnam,schools of Vietnam over 100 years old
 comments: true
 tags: [recommend]
 ---
