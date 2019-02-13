@@ -11,7 +11,7 @@ thumbnail: /assets/apps/valentinesday-card/valentinesday-card-preview.png
 
 ---
 
-<div class="col-12 my-3">{% include plugins/google-ad-automatic-size.html %}</div>
+<div class="col-12 my-3" style="height:70px;">{% include plugins/google-ad-automatic-size.html %}</div>
 
 <link href="https://fonts.googleapis.com/css?family=Merienda|Tangerine" rel="stylesheet">
 
