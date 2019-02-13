@@ -27,3 +27,9 @@ thumbnail: /assets/apps/valentinescard/valentinescard-preview.png
   <div>Icons made by <a href="https://www.freepik.com/" title="Freepik" rel="nofollow" class="text-muted">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" rel="nofollow" class="text-muted">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="nofollow" class="text-muted">CC 3.0 BY</a></div>
   </small>
 </div>
+
+<div class="col-12 my-3">{% include plugins/google-ad-automatic-size.html %}</div>
+<div class="sharethis-inline-share-buttons"></div>
+{% if jekyll.environment == "production" %}
+  {% include plugins/disqus.html %}
+{% endif %}
