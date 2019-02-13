@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<main role="main">
+  <div class="container">
+    {{ content }}
+    <div class="col-12 my-3">{% include plugins/google-ad-automatic-size.html %}</div>
+    <div class="sharethis-inline-share-buttons"></div>
+    {% if jekyll.environment == "production" %}
+      {% include plugins/disqus.html %}
+    {% endif %}
+  </div>
+</main>
