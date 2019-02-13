@@ -11,7 +11,8 @@ thumbnail: /assets/apps/valentinesday-card/valentinesday-card-preview.png
 
 ---
 
-<div class="col-12 my-3">{% include plugins/google-ad-mobile-banner.html %}</div>
+<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
+<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
 
 <link href="https://fonts.googleapis.com/css?family=Merienda|Tangerine" rel="stylesheet">
 
@@ -22,7 +23,7 @@ thumbnail: /assets/apps/valentinesday-card/valentinesday-card-preview.png
 <script src="/assets/apps/valentinesday-card/vendor.f24970ba9de8133f9571.js"></script>
 <script src="/assets/apps/valentinesday-card/main.7b41f95c8592928d7ceb.js"></script>
 
-<div class="row mt-5">
+<div class="row mt-5 mb-3">
   <small class="col-12 text-muted text-right">
   <div>Icons made by <a href="https://www.freepik.com/" title="Freepik" rel="nofollow" class="text-muted">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" rel="nofollow" class="text-muted">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="nofollow" class="text-muted">CC 3.0 BY</a></div>
   </small>

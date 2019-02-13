@@ -92,3 +92,13 @@ a.card *:hover {color: #777;}
 .navi [class^="navi-btn-"]:hover {color:#fff;background:rgba(237,216,183,0.8)}
 
 .text-decoration-none {text-decoration: none;}
+
+// ad
+@media (min-width: 100px) and (max-width: 767px) {.mobile-banner{display: block;}}
+@media (min-width: 768px) {.mobile-banner{display: none;}}
+@media (min-width: 992px) {.mobile-banner{display: none;}}
+@media (min-width: 1200px) {.mobile-banner{display: none;}}
+@media (min-width: 100px) and (max-width: 767px) {.desktop-banner{display: none;}}
+@media (min-width: 768px) {.desktop-banner{display: block;}}
+@media (min-width: 992px) {.desktop-banner{display: block;}}
+@media (min-width: 1200px) {.desktop-banner{display: block;}}
