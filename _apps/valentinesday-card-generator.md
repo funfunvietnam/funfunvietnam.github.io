@@ -20,7 +20,7 @@ thumbnail: /assets/apps/valentinesday-card/valentinesday-card-preview.png
 </div>
 
 <script src="/assets/apps/valentinesday-card/vendor.f24970ba9de8133f9571.js"></script>
-<script src="/assets/apps/valentinesday-card/main.0d891ba028ae41bcf12c.js"></script>
+<script src="/assets/apps/valentinesday-card/main.7d6fb1a8b53a47827114.js"></script>
 
 <div class="row mt-5">
   <small class="col-12 text-muted text-right">
