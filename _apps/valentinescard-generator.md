@@ -28,8 +28,8 @@ thumbnail: /assets/apps/valentinescard/valentinescard-preview.png
   </small>
 </div>
 
-<div class="col-12 my-3">{% include plugins/google-ad-automatic-size.html %}</div>
 <div class="sharethis-inline-share-buttons"></div>
+<div class="col-12 my-3">{% include plugins/google-ad-automatic-size.html %}</div>
 {% if jekyll.environment == "production" %}
   {% include plugins/disqus.html %}
 {% endif %}
