@@ -20,8 +20,8 @@ thumbnail: /assets/apps/valentinesday-card/valentinesday-card-preview.png
   <valentinesday-card-generator></valentinesday-card-generator>
 </div>
 
-<script src="/assets/apps/valentinesday-card/vendor.f24970ba9de8133f9571.js"></script>
-<script src="/assets/apps/valentinesday-card/main.e5f899e2e3ae016985ea.js"></script>
+<script src="/assets/apps/valentinesday-card/vendor.87c014a73a2064869d44.js"></script>
+<script src="/assets/apps/valentinesday-card/main.560bc93ab79c100603cf.js"></script>
 
 <div class="row mt-5 mb-3">
   <small class="col-12 text-muted text-right">
