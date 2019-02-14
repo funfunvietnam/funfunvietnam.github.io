@@ -12,7 +12,7 @@ visibility: no-show-in-home
 </div>
 
 <script src="/assets/apps/valentinesday-card/vendor.f24970ba9de8133f9571.js"></script>
-<script src="/assets/apps/valentinesday-card/main.7b41f95c8592928d7ceb.js"></script>
+<script src="/assets/apps/valentinesday-card/main.e5f899e2e3ae016985ea.js"></script>
 
 <div class="row mt-5">
   <small class="col-12 text-muted text-right">
