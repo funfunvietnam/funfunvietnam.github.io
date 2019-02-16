@@ -12,6 +12,10 @@ According to reports published by the Vietnam National Administration of Tourism
 
 This video shows the ranking history of top 20 International Visitors to Vietnam from 1995 to 2018.
 
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tNWlx-lMMr8" allowfullscreen></iframe>
+</div>
+
 ## Top 20 International Visitors to Vietnam in 2018
 
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
