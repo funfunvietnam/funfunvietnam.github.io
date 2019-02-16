@@ -49,6 +49,20 @@
                 {% endfor %}
               {% endif %}
             {% endfor %}
+
+            {% assign apps = site.apps | where: 'tags', 'recommend' %}
+            {% for post in apps %}
+                  <tr>
+                    <td>
+                      <a href="{{ post.url }}">
+                        <div>
+                          <p>{{ post.title }}</p>
+                          <p class="text-muted text-right small">{{ post.date | date: "%B %-d, %Y" }}</p>
+                        </div>
+                      </a>
+                    </td>
+                  </tr>
+            {% endfor %}
           </tbody>
         </table>
       </div>

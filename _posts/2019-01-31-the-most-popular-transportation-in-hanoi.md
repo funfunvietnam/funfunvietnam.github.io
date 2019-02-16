@@ -5,7 +5,6 @@ description: Grab, the popular transportation in Hanoi
 thumbnailref: https://english.thesaigontimes.vn/Uploads/Articles04/58981/82b7f_grab.jpg
 keywords: Grab,uber vietnam,taxi vietnam,bike vietnam,popular transportation in Hanoi
 comments: true
-tags: [recommend]
 ---
 
 If you live in Hanoi for a period of time, you must know the transportation situation in here. The most popluar vehicle in here is motocycle. For short distance movement is fast and convenient. This advantage does not only belong to local citizen but also to foreigners. Because the Uber likes service in here is also popular. It calls `Grab`, provides taxi, bike, give a ride service.

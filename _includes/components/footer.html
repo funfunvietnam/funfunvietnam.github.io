@@ -3,7 +3,8 @@
 	<div class="d-flex justify-content-between mb-3">
 		<div class="social-media">
 			<span class="mr-3">{% include components/brands/icon-facebook.html username=site.facebook_username id=site.facebook_id %}</span>
-			<span>{% include components/brands/icon-twitter.html username=site.twitter_username %}</span>
+      <span class="mr-3">{% include components/brands/icon-twitter.html username=site.twitter_username %}</span>
+      <span>{% include components/brands/icon-youtube.html id=site.youtube_id %}</span>
 		</div>
 		<span><a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank" class="btn btn-outline-success btn-sm">Subscribe via RSS</a></span>
 	</div>

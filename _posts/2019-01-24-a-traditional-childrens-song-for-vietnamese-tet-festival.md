@@ -6,6 +6,7 @@ description: Tết Tết Tết Tết đến rồi!
 thumbnailref: https://img.youtube.com/vi/VJ5W2tfGhVw/0.jpg
 keywords: Vietnamese Tết festival song,traditional children's song
 comments: true
+tags: [hot]
 ---
 
 Recently, HTV3 DreamsTV release a video about a traditional children's Tết song on YouTube. This video bring the song `Xúc Xắc Xúc Xẻ` with cute animation, and its story describes about the custom which people did during the Vietnamese lunar new year.

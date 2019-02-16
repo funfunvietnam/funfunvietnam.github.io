@@ -29,10 +29,12 @@ collections:
     output: false
 
 # github_username:    jekyll
-facebook_id:    Fun-Fun-Vietnam-231470040917691
-facebook_username:    Fun Fun Vietnam
+facebook_id: Fun-Fun-Vietnam-231470040917691
+facebook_username: Fun Fun Vietnam
 # instagram_username: jekyllrb
-twitter_username:   funfunvietnam
+twitter_username: funfunvietnam
+youtube_id: channel/UCmyrLogK8_C-EMa3rzMfHlQ/
+
 
 # DISQUS
 disqushandler: 'funfunvietnam'
