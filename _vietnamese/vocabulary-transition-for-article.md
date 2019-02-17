@@ -42,7 +42,7 @@ tags: [hot]
 <div class="col">
   <table class="table table-striped table-sm">
     <tbody>
-      <tr><td><b>Ngay cả</b> Tết cũng không dược nghỉ.</td></tr>
+      <tr><td><b>Ngay cả</b> Tết cũng không được nghỉ.</td></tr>
       <tr><td>Even Tet holiday, I still cannot take a day off.</td></tr>
     </tbody>
   </table>

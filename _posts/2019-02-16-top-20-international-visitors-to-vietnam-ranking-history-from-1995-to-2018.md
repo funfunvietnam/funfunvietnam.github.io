@@ -16,7 +16,9 @@ This video shows the ranking history of top 20 International Visitors to Vietnam
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tNWlx-lMMr8" allowfullscreen></iframe>
 </div>
 
-## Top 20 International Visitors to Vietnam in 2018
+<i class="mt-5"></i>
+
+## International Visitors to Vietnam in 2018
 
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <style>
@@ -51,10 +53,149 @@ This video shows the ranking history of top 20 International Visitors to Vietnam
     <tr><th>18</th><td>Indonesia</td><td>87,941</td></tr>
     <tr><th>19</th><td>Holland</td><td>77,300</td></tr>
     <tr><th>20</th><td>Spain</td><td>77,071</td></tr>
+    <tr><th>21</th><td>Italy</td><td>65,562</td></tr>
+    <tr><th>22</th><td>Hong Kong</td><td>62,208</td></tr>
+    <tr><th>23</th><td>New Zealand</td><td>49,854</td></tr>
+    <tr><th>24</th><td>Sweden </td><td>49,723</td></tr>
+    <tr><th>25</th><td>Denmark</td><td>39,926</td></tr>
+    <tr><th>26</th><td>Switzerland</td><td>34,541</td></tr>
+    <tr><th>27</th><td>Belgium</td><td>31,382</td></tr>
+    <tr><th>28</th><td>Norway </td><td>26,134</td></tr>
+    <tr><th>29</th><td>Finland</td><td>22,785</td></tr>
   </tbody>
 </table>
 
 ![Top 20 International Visitors to Vietnam Ranking History (1995-2018)](/assets/images/2019/top-20-international-visitors-to-vietnam-ranking-history-from-1995-to-2018.png)
+
+---
+
+<script src="/assets/js/Chart.min.js"></script>
+
+<script>
+window.chartColors = {
+  red: 'rgb(255, 99, 132)',
+  orange: 'rgb(255, 159, 64)',
+  yellow: 'rgb(255, 205, 86)',
+  green: 'rgb(75, 192, 192)',
+  blue: 'rgb(54, 162, 235)',
+  purple: 'rgb(153, 102, 255)',
+  grey: 'rgb(201, 203, 207)'
+};
+</script>
+
+## Visitors in 2018 by Continents
+
+<canvas id="Visitors2018ByContinents" class="embed-responsive embed-responsive-16by9"></canvas>
+<script>
+  var ctx = document.getElementById("Visitors2018ByContinents").getContext('2d');
+  var myDoughnutChart = new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+        datasets: [{
+          data: [
+            12075466,
+            903830,
+            2037915,
+            437819,
+            42761,
+          ],
+          backgroundColor: [
+            window.chartColors.red,
+            window.chartColors.orange,
+            window.chartColors.yellow,
+            window.chartColors.green,
+            window.chartColors.blue,
+          ],
+          label: 'Dataset 1'
+        }],
+        labels: [
+          'Asia',
+          'America',
+          'Europe',
+          'Oceania',
+          'Africa'
+        ]
+      },
+      options: {
+        responsive: true,
+        legend: {
+          position: 'top',
+        },
+        animation: {
+          animateScale: true,
+          animateRotate: true
+        }
+      }
+  });
+</script>
+
+---
+
+## Visitors by Year
+
+<canvas id="VisitorsByYear" class="embed-responsive embed-responsive-16by9"></canvas>
+<script>
+var ctx = document.getElementById("VisitorsByYear").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: ["1995","1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018"],
+        datasets: [{
+            label: 'Visitors',
+            data: [1351300,1607200,1715600,1520100,1781800,2140100,2330800,2628200,2429600,2927876,3467757,3583486,4171564,4253740,3772359,5049855,6014032,6847678,7572352,7874312,7943651,10012735,12922151,15497791],
+            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1
+        }]
+    }
+});
+</script>
+
+## Visitors through Transportation by Year
+
+<canvas id="VisitorsThroughTransportationByYear" class="embed-responsive embed-responsive-16by9"></canvas>
+<script>
+let mode = 'index';
+let intersect = true
+var ctx = document.getElementById("VisitorsThroughTransportationByYear").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: ["1995","1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018"],
+        datasets: [{
+          label: 'by air',
+          data: [1206800,939600,1033700,873700,1022100,1113100,1294500,1540300,1394800,1821595,,2702430,3261941,3283237,3025625,4061712,5031586,5575904,5979953,6220175,6271250,8260623,10910297,12484987],
+          backgroundColor: 'rgba(255, 206, 86, 0.2)',
+          borderColor: 'rgba(255, 206, 86, 1)',
+          borderWidth: 1
+        },{
+          label: 'by sea',
+          data: [21700,161900,131500,157200,187900,256100,284700,309100,241500,263362,,224081,224389,157198,65934,50500,46321,285546,193261,47583,169839,284855,258836,215306],
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          borderColor: 'rgba(255,99,132,1)',
+          borderWidth: 1
+        },{
+          label: 'by road',
+          data: [122800,505700,550400,489300,571800,770900,751600,778800,793300,842919,,656975,685234,813305,680800,937643,936125,986228,1399138,1606554,1502562,1467257,1753018,2797498],
+          backgroundColor: 'rgba(75, 192, 192, 0.2)',
+          borderColor: 'rgba(75, 192, 192, 1)',
+          borderWidth: 1
+        }]
+    },
+    options: {
+      responsive: true,
+      tooltips: {
+        mode: mode,
+        intersect: intersect,
+      },
+      hover: {
+        mode: mode,
+        intersect: intersect
+      },
+    }
+});
+</script>
+
 
 ## Data Source
 * <a href="http://vietnamtourism.gov.vn" target="_blank" rel="nofollow">Vietnam National Administration of Tourism</a>
