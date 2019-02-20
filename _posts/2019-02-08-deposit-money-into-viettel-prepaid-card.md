@@ -18,6 +18,9 @@ Prepaid SIM card service in Vietnam, right now, is very convenient to get. There
 
 Here, I want to share how to deposit money into Viettel prepaid card.
 
+<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
+<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
+
 ## Tutorial
 
 **First**, You can buy a Viettel SIM card in any Viettel shop.

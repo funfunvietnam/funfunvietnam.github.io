@@ -113,6 +113,8 @@ Public holidays in Vietnam are days when workers get the day off work. Vietnames
   </tbody>
 </table>
 
+<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
+
 <!-- Calendar 2019 -->
 ## 2019 Vietnam Calendar
 
@@ -206,3 +208,5 @@ function posObjs() {
 };
 posObjs();</script>
 </div>
+
+<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>

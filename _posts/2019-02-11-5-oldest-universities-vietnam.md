@@ -10,6 +10,8 @@ tags: [recommend]
 
 Compare with the oldest university in the world, the University of Bologna founded 1088, the age of universities in Vietnam are quite young, but they do breed diversity of outstanding talented people. There are a list of 5 oldest universities in Vietnam.
 
+<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
+
 ## Hanoi University of Industry
 
 ![Hanoi University of Industry](https://lh3.ggpht.com/p/AF1QipP3NIlEOgsfIXlgUbyOCbdYAqvEz1dGqT6BODNn=s512)
@@ -54,6 +56,9 @@ Website: <a href="http://www.vnu.edu.vn/" target="_blank" rel="nofollow">http://
 
 **Vietnam National University, Hanoi** (Vietnamese: Đại học Quốc gia Hà Nội) is one of five national university systems. It ranked 139 in Asia by the QS World Rankings. Responsible for producing high quality human resources and cultivate talents, promoting advanced science, technology, renovation and knowledge transference, and playing the role of a pioneer in the reforming of Vietnam’s higher education system.
 
+<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
+<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
+
 ## Ho Chi Minh City University of Science
 
 ![Ho Chi Minh City University of Science](https://www.hcmus.edu.vn/images/2018/11/21/bn2.png)
@@ -83,3 +88,6 @@ Website: <a href="http://yds.edu.vn/" target="_blank" rel="nofollow">http://yds.
 The Faculty of Medicine and Pharmacy of Saigon was established in 1947 in Saigon as a division of the Indochina School of Medicine in Hanoi. Following the Reunification of the country, **the University of Medicine and Pharmacy, Ho Chi Minh City** was founded in 1976. Responsible for educating and training healthcare professionals to promote the development of health sciences and contribute to the improvement of Medicine and Pharmacy in Vietnam.
 
 ---
+
+<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
+<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>

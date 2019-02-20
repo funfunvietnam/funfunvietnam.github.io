@@ -10,6 +10,9 @@ tags: [recommend]
 
 According to reports published by the Vietnam National Administration of Tourism, the trend of visiting Vietnam is gradually increased. As of 2018, more than 4.9 million visitors of China came to visit Vietnam. Korea, Japan, Taiwan, and the United States are also topped the list of the most visited countries.
 
+<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
+<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
+
 This video shows the ranking history of top 20 International Visitors to Vietnam from 1995 to 2018.
 
 <div class="embed-responsive embed-responsive-16by9">
@@ -82,6 +85,9 @@ window.chartColors = {
   grey: 'rgb(201, 203, 207)'
 };
 </script>
+
+<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
+<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
 
 ## Visitors in 2018 by Continents
 
