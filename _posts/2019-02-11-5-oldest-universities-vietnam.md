@@ -10,8 +10,6 @@ tags: [recommend]
 
 Compare with the oldest university in the world, the University of Bologna founded 1088, the age of universities in Vietnam are quite young, but they do breed diversity of outstanding talented people. There are a list of 5 oldest universities in Vietnam.
 
-<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
-
 ## Hanoi University of Industry
 
 ![Hanoi University of Industry](https://lh3.ggpht.com/p/AF1QipP3NIlEOgsfIXlgUbyOCbdYAqvEz1dGqT6BODNn=s512)

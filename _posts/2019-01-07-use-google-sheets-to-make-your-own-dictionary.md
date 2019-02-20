@@ -9,11 +9,6 @@ comments: true
 
 If you have experience to lookup Vietnamese words in English dictionary, you must be noticed that the quality of the translation is often unsatisfied. Let's look deeply in this problem by using two popular dictionaries, `Google Translate` and `English Vietnamese Dictionary TFlat`.
 
-<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
-<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
-
-{% include plugins/google-ad-automatic-size.html %}
-
 When we lookup the words, **chính phủ** and **chính quyền**, both of them are translated as **government**.
 
 ![](/assets/images/2019/lookup-dictionary-in-google-translate.png)

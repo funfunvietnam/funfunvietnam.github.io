@@ -16,9 +16,6 @@ According to Wikipedia, *Vietnam is divided into 58 provinces*, so... does that 
 
 I read two pages of Wikipedia about **List of airports in Vietnam**<a href="#ref-1">[1]</a> and **Provinces of Vietnam**<a href="#ref-1">[2]</a>. Then after orgainzing the information on these pages, I found out the answer of airport amount is very close to my teacher's stand. However, the definition is quite different.
 
-<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
-<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
-
 In order to understand the analysis easily, I do some data visualization work as below. Click each buttons on the map or list can show the detail.
 
 {% include addons/vietnam-map.html %}

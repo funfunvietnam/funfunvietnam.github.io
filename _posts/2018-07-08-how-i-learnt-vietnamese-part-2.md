@@ -8,9 +8,6 @@ comments: true
 ---
 How long does it take to improve Vietnamese skill from speaking few limited vocabulary to expressing opinion? For me, this phase took me around 6 months.
 
-<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
-<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
-
 In the beginning of 2018, I decided to move to Hanoi and attend a small group of Vietnamese course. 3 classes a week, each class is 2.5 hours. I found this is helpful because the course made me get in touch of the series of Đại Học Quốc Gia Hà Nội, which is designed for non-native speaker with organized learning steps.
 
 <a id="the-series-of-dai-hoc-quoc-gia-hanoi"></a>

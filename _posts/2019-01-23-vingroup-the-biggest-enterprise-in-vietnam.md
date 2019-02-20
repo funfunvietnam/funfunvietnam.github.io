@@ -30,10 +30,6 @@ As a foreigner who lives in Vietnam, it is easy to notice that a lot of great se
 
 Recently, the VinGroup release the groupcard service called `VinID`. If you use the card to shop in VinGroup’s shops, you can get Vinpoint for a direct deduction on your bill during transaction at the shops. 1 Vinpoint is equal to 1,000 VND
 
-
-<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
-<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
-
 ---
 
 ## Tourism
@@ -92,9 +88,6 @@ Vinpearl owns major resorts in Vietnam such as Vinpearl Nha Trang, Vinpearl Da N
 
 
 Healthcare including Vinmec International Hospital, Times City Hanoi, Vinmec Royal International
-
-<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
-<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
 
 ---
 
