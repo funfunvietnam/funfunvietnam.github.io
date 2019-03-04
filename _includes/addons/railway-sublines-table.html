@@ -1,0 +1,17 @@
+{% assign line_id = include.line_id %}
+{% assign subline_id = include.subline_id %}
+{% assign badge_color = include.badge_color %}
+{% assign anchor_id = include.anchor_id %}
+{% assign title = include.title %}
+{% assign direction = include.direction %}
+{% assign line = include.line %}
+{% assign trains = include.trains %}
+<div id="{{anchor_id}}"
+  class="head-title-sublines d-flex justify-content-between">
+  <span>
+    <span class="badge badge-primary">{{line_id}}</span>-<span class="badge badge-{{badge_color}}">{{subline_id}}</span>
+    <h3>{{title}}</h3>
+  </span>
+  <p><span class="badge badge-secondary">{{direction}}</span></p>
+</div>
+{% include addons/railway-table.html line=line trains=trains %}
