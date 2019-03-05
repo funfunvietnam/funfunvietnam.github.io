@@ -363,8 +363,7 @@ collapse_lines.forEach(function(e){
   line="QNH-SGO"
   trains="SQN1" %}
 
-<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
-<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
+{% include plugins/google-ad-responsive-horizontal-banner.html %}
 
 ---
 
@@ -438,8 +437,7 @@ collapse_lines.forEach(function(e){
   line="SGO-QNH"
   trains="SQN4" %}
 
-<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
-<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
+{% include plugins/google-ad-responsive-horizontal-banner.html %}
 
 ---
 
@@ -589,8 +587,7 @@ collapse_lines.forEach(function(e){
   line="HLO-YVI"
   trains="51502" %}
 
-<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
-<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
+{% include plugins/google-ad-responsive-horizontal-banner.html %}
 
 ---
 
@@ -675,9 +672,6 @@ collapse_lines.forEach(function(e){
   direction="to south"
   line="QTR-HNO"
   trains="QT2" %}
-
-<div class="col-12 my-3 mobile-banner">{% include plugins/google-ad-mobile-banner.html %}</div>
-<div class="col-12 my-3 desktop-banner">{% include plugins/google-ad-automatic-size.html %}</div>
 
 ## Reference
 
