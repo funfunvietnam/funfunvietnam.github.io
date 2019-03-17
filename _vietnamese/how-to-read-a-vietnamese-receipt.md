@@ -2,8 +2,8 @@
 layout: vietnamese
 title: How to Read a Vietnamese Receipt
 date: 2019-03-17
-keywords: How to Read a Vietnamese Receipt
-description: How to Read a Vietnamese Receipt
+keywords: How to Read a Vietnamese Receipt, tutorial
+description: A tutorial to teach how to read a Vietnamese receipt
 thumbnailref: /assets/images/2019/vietnamese-receipt-layout.jpg
 comments: true
 categories: [shopping]
