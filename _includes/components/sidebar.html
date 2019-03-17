@@ -63,6 +63,20 @@
                     </td>
                   </tr>
             {% endfor %}
+
+            {% assign posts = site.vietnamese | where: 'tags', 'recommend' %}
+            {% for post in posts %}
+                  <tr>
+                    <td>
+                      <a href="{{ post.url }}">
+                        <div>
+                          <p>{{ post.title }}</p>
+                          <p class="text-muted text-right small">{{ post.date | date: "%B %-d, %Y" }}</p>
+                        </div>
+                      </a>
+                    </td>
+                  </tr>
+            {% endfor %}
           </tbody>
         </table>
       </div>
