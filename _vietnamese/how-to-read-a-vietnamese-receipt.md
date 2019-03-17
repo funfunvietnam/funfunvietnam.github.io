@@ -7,7 +7,7 @@ description: How to Read a Vietnamese Receipt
 thumbnailref: /assets/images/2019/vietnamese-receipt-layout.jpg
 comments: true
 categories: [shopping]
-tags: [hot, recommend]
+tags: [hot, recommend, post]
 ---
 
 Whenever got a receipt from a shop or supermarket, would you read the content of it? As a foreigner, reading a Vietnamese receipt might have a bit effort. But in fact, it is very easy. Let's learn how to read it by using a sample receipt from [VinCommerce](/2019/01/23/vingroup-the-biggest-enterprise-in-vietnam.html#commerce). 🤗
