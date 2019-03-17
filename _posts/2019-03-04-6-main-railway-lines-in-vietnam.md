@@ -8,7 +8,7 @@ comments: true
 tags: [recommend]
 ---
 
-How is railway network in Vietnam? The total length of the Vietnamese railway network has almost 2,600 kilometres (1,600 mi). Base on the passenger service provided by Vietnam Railways, the state-owned operator of the railway system in Vietnam, I organized the 6 major railway lines as below.
+How is railway network in Vietnam? The total length of the Vietnamese railway network has almost 2,600 kilometers (1,600 mi). Base on the passenger service provided by Vietnam Railways, the state-owned operator of the railway system in Vietnam, I organized the 6 major railway lines as below.
 
 {% capture lines %}
 North - South railway,
