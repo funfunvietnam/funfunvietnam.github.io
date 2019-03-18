@@ -1,4 +1,5 @@
 ---
+pid: 27
 layout: vietnamese
 title: The Usage of " mà "
 date: 2019-02-02
@@ -7,6 +8,7 @@ description: Vietnamese vocabulary for the usage of mà.
 comments: true
 categories: [vocabulary, intermediate]
 tags: [hot]
+recommends: [16,25]
 ---
 <div class="container">
   <div class="row d-flex-justify-start align-items-center">

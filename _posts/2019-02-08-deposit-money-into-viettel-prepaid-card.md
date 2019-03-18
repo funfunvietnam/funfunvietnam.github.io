@@ -1,10 +1,12 @@
 ---
+pid: 28
 layout: post
 title: Deposit money into Viettel prepaid card
 description: Deposit money into Viettel prepaid card
 thumbnailref: http://viettel.com.vn/sites/default/files/styles/header/public/shutterstock_258562604_0.jpg
 keywords: tutorial,deposit money,Viettel prepaid card,Viettel SIM card
 comments: true
+recommends: [4,34]
 ---
 
 ![](http://viettel.com.vn/sites/default/files/styles/header/public/shutterstock_258562604_0.jpg)

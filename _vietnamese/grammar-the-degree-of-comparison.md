@@ -1,4 +1,5 @@
 ---
+pid: 17
 layout: vietnamese
 title: The degree of comparison
 date: 2019-02-01

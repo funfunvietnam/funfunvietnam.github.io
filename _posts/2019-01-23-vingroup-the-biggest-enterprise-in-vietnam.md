@@ -1,4 +1,5 @@
 ---
+pid: 9
 layout: post
 title: VinGroup - the biggest enterprise in Vietnam
 date: 2019-01-23T06:16:26.183Z
@@ -8,6 +9,7 @@ keywords: >-
   VinGroup,biggest enterprise vietnam,biggest company
   vietnam,vinmart,vinhomes,vincom,Vinpoint,VinID
 comments: true
+recommends: [29,31,7]
 ---
 As a foreigner who lives in Vietnam, it is easy to notice that a lot of great services which all provided by the same conglomerate. The services like real estate, tourism & hotel, healthcare services, education, commerce, entertainment, fitness and beauty care... all can hear the same company name start from "**Vin**". Yes, the enterprise I am talking about is `VinGroup`. It is also be called as the biggest enterprise in Vietnam.
 

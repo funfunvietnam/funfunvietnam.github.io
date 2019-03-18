@@ -1,4 +1,5 @@
 ---
+pid: 14
 layout: vietnamese
 title: Sentence Structure of Cause and Result
 date: 2019-02-01
@@ -6,6 +7,7 @@ keywords: Vietnamese Sentence Structure of Cause and Result
 description: Vietnamese Sentence Structure of Cause and Result
 comments: true
 categories: [grammar, beginner]
+recommends: [15,16]
 ---
 <div class="container">
   <div class="row d-flex-justify-start align-items-center">

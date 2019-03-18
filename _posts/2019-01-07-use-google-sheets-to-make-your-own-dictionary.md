@@ -1,10 +1,12 @@
 ---
+pid: 3
 layout:   post
 title:    Use Google Sheets to make your own dictionary
 keywords: building dictionary,build synonym,english vietnamese dictionary
 description: a tutorial for using Google Sheets to build a simple dictionary
 thumbnail: /assets/images/2019/dictionary-template-thumbnail.png
 comments: true
+recommends: [2,25,33]
 ---
 
 If you have experience to lookup Vietnamese words in English dictionary, you must be noticed that the quality of the translation is often unsatisfied. Let's look deeply in this problem by using two popular dictionaries, `Google Translate` and `English Vietnamese Dictionary TFlat`.

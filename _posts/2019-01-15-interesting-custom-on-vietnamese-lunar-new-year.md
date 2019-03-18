@@ -1,10 +1,12 @@
 ---
+pid: 5
 layout:    post
 title:     Interesting custom on Vietnamese Lunar New Year
 keywords:  Lunar New Year,Vietnam,custom
 description: An interesting custom about Xông Nhà
 thumbnail: /assets/images/2019/interesting-custom-vietnamese-new-year.jpeg
 comments:  true
+recommends: [10,11]
 ---
 
 Vietnam is one of the country whose people use lunar calendar for their important days. For example, the date of Vietnamese New Year is on 1st, January in lunar calendar. 

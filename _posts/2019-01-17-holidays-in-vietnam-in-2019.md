@@ -1,4 +1,5 @@
 ---
+pid: 6
 layout:    post
 title:     Holidays in Vietnam in 2019
 keywords:  Holidays Vietnam 2019,Vietnamese Holiday 2019,Vietnam holiday,vietnamese calendar 2019
@@ -6,6 +7,7 @@ description: An organizaed Vietnamese holiday in 2019
 thumbnail: /assets/images/2019/holiday-vietnam-2019-calendar.jpeg
 comments:  true
 tags: [hot]
+recommends: [7,31]
 ---
 
 Public holidays in Vietnam are days when workers get the day off work. Vietnamese workers observed 10 days of public holiday a year. If you are planing a vocation to Vietnam, it might be a good idea to notice those days. Especially for visiting a popular tourist region.

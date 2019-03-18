@@ -1,0 +1,72 @@
+{% if page.recommends.size > 0 %}
+<div class="recommend-posts flex-container d-flex flex-wrap justify-content-start">
+{% include components/index-page/category-header.html title="You may be interested in these posts" %}
+
+{% for post in site.posts %}
+  {% for rpid in page.recommends %}
+    {% if rpid == post.pid %}
+<div class="flex-item h-100">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="card mb-4">
+    <span class="img-container">
+      {% if post.thumbnailref %}
+      <img class="card-img-top" src="{{ post.thumbnailref }}">
+      {% elsif post.thumbnail %}
+      <img class="card-img-top" src="{{ post.thumbnail | prepend: site.baseurl }}">
+      {% endif %}
+    </span>
+    <div class="card-body ">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text text-right small">{{ post.date | date: "%B %-d, %Y" }}</p>
+    </div>
+  </a>
+</div>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% for post in site.apps %}
+  {% for rpid in page.recommends %}
+    {% if rpid == post.pid %}
+<div class="flex-item h-100">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="card mb-4">
+    <span class="img-container">
+      {% if post.thumbnailref %}
+      <img class="card-img-top" src="{{ post.thumbnailref }}">
+      {% elsif post.thumbnail %}
+      <img class="card-img-top" src="{{ post.thumbnail | prepend: site.baseurl }}">
+      {% endif %}
+    </span>
+    <div class="card-body ">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text text-right small">{{ post.date | date: "%B %-d, %Y" }}</p>
+    </div>
+  </a>
+</div>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% for post in site.vietnamese %}
+  {% for rpid in page.recommends %}
+    {% if rpid == post.pid %}
+<div class="flex-item h-100">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="card mb-4">
+    <span class="img-container">
+      {% if post.thumbnailref %}
+      <img class="card-img-top" src="{{ post.thumbnailref }}">
+      {% elsif post.thumbnail %}
+      <img class="card-img-top" src="{{ post.thumbnail | prepend: site.baseurl }}">
+      {% endif %}
+    </span>
+    <div class="card-body ">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text text-right small">{{ post.date | date: "%B %-d, %Y" }}</p>
+    </div>
+  </a>
+</div>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+</div>
+{% endif %}

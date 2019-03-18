@@ -1,4 +1,5 @@
 ---
+pid: 15
 layout: vietnamese
 title: Sentence Structure of Condition and Result
 date: 2019-02-01
@@ -6,6 +7,7 @@ keywords: Vietnamese Sentence Structure of Condition and Result
 description: Vietnamese Sentence Structure of Condition and Result
 comments: true
 categories: [grammar, beginner]
+recommends: [14,16]
 ---
 <div class="container">
   <div class="row d-flex-justify-start align-items-center">

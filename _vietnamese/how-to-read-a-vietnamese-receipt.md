@@ -1,4 +1,5 @@
 ---
+pid: 34
 layout: vietnamese
 title: How to Read a Vietnamese Receipt
 date: 2019-03-17
@@ -8,6 +9,7 @@ thumbnailref: /assets/images/2019/vietnamese-receipt-layout.jpg
 comments: true
 categories: [shopping]
 tags: [hot, recommend, post]
+recommends: [4,28]
 ---
 
 Whenever got a receipt from a shop or supermarket, would you read the content of it? As a foreigner, reading a Vietnamese receipt might have a bit effort. But in fact, it is very easy. Let's learn how to read it by using a sample receipt from [VinCommerce](/2019/01/23/vingroup-the-biggest-enterprise-in-vietnam.html#commerce). 🤗
@@ -28,9 +30,9 @@ The left side is the original receipt, and the right side is its layout. We can 
 
 ![vietnamese receipt seller info](/assets/images/2019/vietnamese-receipt-seller-info.jpg)
 
-* The left side is the shop's name and its logo.
+* The left side is the shop's brand name and its logo.
 * The Right side is its contact information. Address and phone number.
-* *[VinCommerce](/2019/01/23/vingroup-the-biggest-enterprise-in-vietnam.html#commerce) is  and belongs to VinGroup, the biggest enterprise in Vietnam.*
+* *[VinCommerce](/2019/01/23/vingroup-the-biggest-enterprise-in-vietnam.html#commerce) belongs to VinGroup, the biggest enterprise in Vietnam.*
 
 ### Part 2: Receipt meta
 

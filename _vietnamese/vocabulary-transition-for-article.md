@@ -1,4 +1,5 @@
 ---
+pid: 25
 layout: vietnamese
 title: Transition for article
 date: 2019-02-01
@@ -7,6 +8,7 @@ description: Vietnamese vocabulary for Transition for article
 comments: true
 categories: [vocabulary, intermediate]
 tags: [hot]
+recommends: [16,27]
 ---
 
 ## Time transition

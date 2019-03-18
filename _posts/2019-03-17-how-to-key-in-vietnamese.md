@@ -1,4 +1,5 @@
 ---
+pid: 33
 layout: post
 title: How to Key in Vietnamese
 description: A tutorial of using Telex keyboard to key in Vietnamese on platforms of iOS, Android, Windows 10, Windows 7, Mac, and Linux Ubuntu. Also teach how to type in special Vietnamese alphabet.
@@ -6,6 +7,7 @@ thumbnailref: https://images.pexels.com/photos/39389/keyboard-key-success-online
 keywords: how to key in Vietnamese, install Telex keyboard
 comments: true
 tags: [recommend]
+recommends: [34,3,2]
 ---
 
 Want to key in Vietnamese on your device? Try the Telex keyboard! This article is a tutorial to guide installation to platforms of 

@@ -1,4 +1,5 @@
 ---
+pid: 16
 layout: vietnamese
 title: Sentence Structure of Emphasis
 date: 2019-02-01
@@ -7,6 +8,7 @@ description: Vietnamese Sentence Structure of Emphasis
 comments: true
 categories: [grammar, intermediate]
 tags: [hot]
+recommends: [25,27]
 ---
 <div class="container">
   <div class="row d-flex-justify-start align-items-center">

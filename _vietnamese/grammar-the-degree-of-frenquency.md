@@ -1,4 +1,5 @@
 ---
+pid: 18
 layout: vietnamese
 title: The degree of frenquency
 date: 2019-02-01

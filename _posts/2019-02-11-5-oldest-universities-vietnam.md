@@ -1,10 +1,12 @@
 ---
+pid: 29
 layout: post
 title: 5 of the Oldest Universities in Vietnam
 description: Discover the oldest universities in Vietnam
 thumbnailref: https://images.pexels.com/photos/220351/pexels-photo-220351.jpeg?h=395&w=640
 keywords: oldest universities Vietnam,schools of Vietnam over 100 years old
 comments: true
+recommends: [7,31,9,32]
 ---
 
 Compare with the oldest university in the world, the University of Bologna founded 1088, the age of universities in Vietnam are quite young, but they do breed diversity of outstanding talented people. There are a list of 5 oldest universities in Vietnam.
