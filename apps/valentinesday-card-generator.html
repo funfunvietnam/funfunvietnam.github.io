@@ -205,6 +205,29 @@ Please enable JavaScript to view the
 <script src="/assets/js/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<style>@media (min-width: 768px) {.affix {position: fixed;}}</style>
+<script>
+function addClass(e,c){if (!e.className.includes(c)) e.className+=` ${c}`}
+function removeClass(e,c){e.className = e.className.replace(/\b affix\b/g, "")}
+var q = function(c){return document.querySelector(c)}
+,header = q('nav.navbar')
+,footer = q('footer')
+,body = q('body')
+,sidebar = q('.sidebar .sidebar-content')
+window.addEventListener('scroll',function(){
+  var top = header.offsetHeight + 16
+  var visibleContent = window.innerHeight - top
+  var currBottom = window.scrollY + visibleContent
+  if (currBottom >= sidebar.offsetHeight){
+    addClass(sidebar, 'affix')
+    var contentBottom = body.offsetHeight - footer.offsetHeight - top
+    if (currBottom >= contentBottom)
+      sidebar.style.bottom = `${currBottom - contentBottom}px`
+    else
+      sidebar.style.bottom = `5px`
+  } else removeClass(sidebar, 'affix')
+})
+</script>
 <style>
 #btn-back-to-top {
   display: inline-block;
