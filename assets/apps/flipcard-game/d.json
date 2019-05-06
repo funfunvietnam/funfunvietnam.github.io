@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Zodiac",
+    "thumbnail": "/assets/apps/flipcard-game/zodiac/thumbnail.png",
+    "data": [
+      ["Chuột", "/assets/apps/flipcard-game/zodiac/zodiac-mice.png"],
+      ["Trâu", "/assets/apps/flipcard-game/zodiac/zodiac-xo.png"],
+      ["Hổ", "/assets/apps/flipcard-game/zodiac/zodiac-tiger.png"],
+      ["Mèo", "/assets/apps/flipcard-game/zodiac/zodiac-cat.png"],
+      ["Rồng", "/assets/apps/flipcard-game/zodiac/zodiac-dragon.png"],
+      ["Rắn", "/assets/apps/flipcard-game/zodiac/zodiac-snake.png"],
+      ["Ngựa", "/assets/apps/flipcard-game/zodiac/zodiac-horse.png"],
+      ["Dê", "/assets/apps/flipcard-game/zodiac/zodiac-goat.png"],
+      ["Khỉ", "/assets/apps/flipcard-game/zodiac/zodiac-monkey.png"],
+      ["Gà Trống", "/assets/apps/flipcard-game/zodiac/zodiac-rooster.png"],
+      ["Chó", "/assets/apps/flipcard-game/zodiac/zodiac-dog.png"],
+      ["Lợn", "/assets/apps/flipcard-game/zodiac/zodiac-pig.png"]
+    ]
+  },
+  {
+    "name": "Fruit",
+    "thumbnail": "/assets/apps/flipcard-game/fruit/thumbnail.png",
+    "data": [
+      ["anh đào", "/assets/apps/flipcard-game/fruit/cherry.png"],
+      ["táo", "/assets/apps/flipcard-game/fruit/apple.png"],
+      ["cam", "/assets/apps/flipcard-game/fruit/orange.png"],
+      ["dâu tây", "/assets/apps/flipcard-game/fruit/strawberry.png"],
+      ["dứa", "/assets/apps/flipcard-game/fruit/pineapple.png"],
+      ["dưa hấu", "/assets/apps/flipcard-game/fruit/watermelon.png"],
+      ["nho", "/assets/apps/flipcard-game/fruit/grape.png"],
+      ["roi", "/assets/apps/flipcard-game/fruit/wax-apple.png"],
+      ["xoài", "/assets/apps/flipcard-game/fruit/mango.png"],
+      ["thang long", "/assets/apps/flipcard-game/fruit/dragon-fruit.png"]
+    ]
+  },
+  {
+    "name": "Vehicle",
+    "thumbnail": "/assets/apps/flipcard-game/vehicle/thumbnail.png",
+    "data": [
+      ["xích lô", "/assets/apps/flipcard-game/vehicle/rickshaw.png"],
+      ["xe đạp", "/assets/apps/flipcard-game/vehicle/bicycle.png"],
+      ["xe máy", "/assets/apps/flipcard-game/vehicle/motobike.png"],
+      ["xe tải", "/assets/apps/flipcard-game/vehicle/truck.png"],
+      ["xe buýt", "/assets/apps/flipcard-game/vehicle/bus.png"],
+      ["tàu hỏa", "/assets/apps/flipcard-game/vehicle/train.png"],
+      ["tàu thủy", "/assets/apps/flipcard-game/vehicle/ship.png"],
+      ["thuyền", "/assets/apps/flipcard-game/vehicle/boat.png"],
+      ["máy bay", "/assets/apps/flipcard-game/vehicle/airplane.png"],
+      ["trực thăng", "/assets/apps/flipcard-game/vehicle/helicopter.png"]
+    ]
+  }
+]
