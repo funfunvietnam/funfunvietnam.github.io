@@ -3,50 +3,72 @@
     "name": "Zodiac",
     "thumbnail": "/assets/apps/flipcard-game/zodiac/thumbnail.png",
     "data": [
-      ["Chuột", "/assets/apps/flipcard-game/zodiac/zodiac-mice.png"],
-      ["Trâu", "/assets/apps/flipcard-game/zodiac/zodiac-xo.png"],
-      ["Hổ", "/assets/apps/flipcard-game/zodiac/zodiac-tiger.png"],
-      ["Mèo", "/assets/apps/flipcard-game/zodiac/zodiac-cat.png"],
-      ["Rồng", "/assets/apps/flipcard-game/zodiac/zodiac-dragon.png"],
-      ["Rắn", "/assets/apps/flipcard-game/zodiac/zodiac-snake.png"],
-      ["Ngựa", "/assets/apps/flipcard-game/zodiac/zodiac-horse.png"],
-      ["Dê", "/assets/apps/flipcard-game/zodiac/zodiac-goat.png"],
-      ["Khỉ", "/assets/apps/flipcard-game/zodiac/zodiac-monkey.png"],
-      ["Gà Trống", "/assets/apps/flipcard-game/zodiac/zodiac-rooster.png"],
-      ["Chó", "/assets/apps/flipcard-game/zodiac/zodiac-dog.png"],
-      ["Lợn", "/assets/apps/flipcard-game/zodiac/zodiac-pig.png"]
+      ["Chuột", "mice", "/assets/apps/flipcard-game/zodiac/zodiac-mice.png"],
+      ["Trâu", "xo", "/assets/apps/flipcard-game/zodiac/zodiac-xo.png"],
+      ["Hổ", "tiger", "/assets/apps/flipcard-game/zodiac/zodiac-tiger.png"],
+      ["Mèo", "cat", "/assets/apps/flipcard-game/zodiac/zodiac-cat.png"],
+      ["Rồng", "dragon", "/assets/apps/flipcard-game/zodiac/zodiac-dragon.png"],
+      ["Rắn", "snake", "/assets/apps/flipcard-game/zodiac/zodiac-snake.png"],
+      ["Ngựa", "horse", "/assets/apps/flipcard-game/zodiac/zodiac-horse.png"],
+      ["Dê", "goat", "/assets/apps/flipcard-game/zodiac/zodiac-goat.png"],
+      ["Khỉ", "monkey", "/assets/apps/flipcard-game/zodiac/zodiac-monkey.png"],
+      ["Gà Trống", "rooster", "/assets/apps/flipcard-game/zodiac/zodiac-rooster.png"],
+      ["Chó", "dog", "/assets/apps/flipcard-game/zodiac/zodiac-dog.png"],
+      ["Lợn", "pig", "/assets/apps/flipcard-game/zodiac/zodiac-pig.png"]
     ]
   },
   {
     "name": "Fruit",
     "thumbnail": "/assets/apps/flipcard-game/fruit/thumbnail.png",
     "data": [
-      ["anh đào", "/assets/apps/flipcard-game/fruit/cherry.png"],
-      ["táo", "/assets/apps/flipcard-game/fruit/apple.png"],
-      ["cam", "/assets/apps/flipcard-game/fruit/orange.png"],
-      ["dâu tây", "/assets/apps/flipcard-game/fruit/strawberry.png"],
-      ["dứa", "/assets/apps/flipcard-game/fruit/pineapple.png"],
-      ["dưa hấu", "/assets/apps/flipcard-game/fruit/watermelon.png"],
-      ["nho", "/assets/apps/flipcard-game/fruit/grape.png"],
-      ["roi", "/assets/apps/flipcard-game/fruit/wax-apple.png"],
-      ["xoài", "/assets/apps/flipcard-game/fruit/mango.png"],
-      ["thang long", "/assets/apps/flipcard-game/fruit/dragon-fruit.png"]
+      ["anh đào", "cherry", "/assets/apps/flipcard-game/fruit/cherry.png"],
+      ["táo", "apple", "/assets/apps/flipcard-game/fruit/apple.png"],
+      ["cam", "orange", "/assets/apps/flipcard-game/fruit/orange.png"],
+      ["dâu tây", "strawberry", "/assets/apps/flipcard-game/fruit/strawberry.png"],
+      ["dứa", "pineapple", "/assets/apps/flipcard-game/fruit/pineapple.png"],
+      ["dưa hấu", "watermelon", "/assets/apps/flipcard-game/fruit/watermelon.png"],
+      ["nho", "grape", "/assets/apps/flipcard-game/fruit/grape.png"],
+      ["roi", "wax apple", "/assets/apps/flipcard-game/fruit/wax-apple.png"],
+      ["xoài", "mango", "/assets/apps/flipcard-game/fruit/mango.png"],
+      ["thang long", "dragon-fruit", "/assets/apps/flipcard-game/fruit/dragon-fruit.png"],
+      ["dừa", "coconut", "/assets/apps/flipcard-game/fruit/coconut.png"],
+      ["dưa", "melon", "/assets/apps/flipcard-game/fruit/melon.png"]
     ]
   },
   {
     "name": "Vehicle",
     "thumbnail": "/assets/apps/flipcard-game/vehicle/thumbnail.png",
     "data": [
-      ["xích lô", "/assets/apps/flipcard-game/vehicle/rickshaw.png"],
-      ["xe đạp", "/assets/apps/flipcard-game/vehicle/bicycle.png"],
-      ["xe máy", "/assets/apps/flipcard-game/vehicle/motobike.png"],
-      ["xe tải", "/assets/apps/flipcard-game/vehicle/truck.png"],
-      ["xe buýt", "/assets/apps/flipcard-game/vehicle/bus.png"],
-      ["tàu hỏa", "/assets/apps/flipcard-game/vehicle/train.png"],
-      ["tàu thủy", "/assets/apps/flipcard-game/vehicle/ship.png"],
-      ["thuyền", "/assets/apps/flipcard-game/vehicle/boat.png"],
-      ["máy bay", "/assets/apps/flipcard-game/vehicle/airplane.png"],
-      ["trực thăng", "/assets/apps/flipcard-game/vehicle/helicopter.png"]
+      ["xích lô", "rickshaw", "/assets/apps/flipcard-game/vehicle/rickshaw.png"],
+      ["xe đạp", "bicycle", "/assets/apps/flipcard-game/vehicle/bicycle.png"],
+      ["xe máy", "motobike", "/assets/apps/flipcard-game/vehicle/motobike.png"],
+      ["xe tải", "truck", "/assets/apps/flipcard-game/vehicle/truck.png"],
+      ["xe buýt", "bus", "/assets/apps/flipcard-game/vehicle/bus.png"],
+      ["xe cấp cưu", "ambulance", "/assets/apps/flipcard-game/vehicle/ambulance.png"],
+      ["ô tô", "car", "/assets/apps/flipcard-game/vehicle/car.png"],
+      ["tàu hỏa", "train", "/assets/apps/flipcard-game/vehicle/train.png"],
+      ["tàu thủy", "ship", "/assets/apps/flipcard-game/vehicle/ship.png"],
+      ["thuyền", "boat", "/assets/apps/flipcard-game/vehicle/boat.png"],
+      ["máy bay", "airplane", "/assets/apps/flipcard-game/vehicle/airplane.png"],
+      ["trực thăng", "helicopter", "/assets/apps/flipcard-game/vehicle/helicopter.png"]
+    ]
+  },
+  {
+    "name": "Internal Organs",
+    "thumbnail": "/assets/apps/flipcard-game/internal-organs/thumbnail.png",
+    "data": [
+      ["tim", "heart", "/assets/apps/flipcard-game/internal-organs/heart.png"],
+      ["gan", "liver", "/assets/apps/flipcard-game/internal-organs/liver.png"],
+      ["lá lách", "spleen", "/assets/apps/flipcard-game/internal-organs/spleen.png"],
+      ["phổi", "lung", "/assets/apps/flipcard-game/internal-organs/lung.png"],
+      ["thận", "kidney", "/assets/apps/flipcard-game/internal-organs/kidney.png"],
+      ["dạ dày", "stomach", "/assets/apps/flipcard-game/internal-organs/stomach.png"],
+      ["tuyến tụy", "pancreas", "/assets/apps/flipcard-game/internal-organs/pancreas.png"],
+      ["túi mật", "gallbladder", "/assets/apps/flipcard-game/internal-organs/gallbladder.png"],
+      ["bọng đái", "bladder", "/assets/apps/flipcard-game/internal-organs/bladder.png"],
+      ["ruột già", "the large intestine", "/assets/apps/flipcard-game/internal-organs/the-large-intestine.png"],
+      ["ruột non", "small intestines", "/assets/apps/flipcard-game/internal-organs/small-intestines.png"],
+      ["ruột thừa", "appendix", "/assets/apps/flipcard-game/internal-organs/appendix.png"]
     ]
   }
 ]
