@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "name": "Zodiac",
     "thumbnail": "/assets/apps/flipcard-game/zodiac/thumbnail.png",
     "data": [
@@ -18,6 +19,7 @@
     ]
   },
   {
+    "id": 1,
     "name": "Fruit",
     "thumbnail": "/assets/apps/flipcard-game/fruit/thumbnail.png",
     "data": [
@@ -36,6 +38,7 @@
     ]
   },
   {
+    "id": 2,
     "name": "Vehicle",
     "thumbnail": "/assets/apps/flipcard-game/vehicle/thumbnail.png",
     "data": [
@@ -54,6 +57,7 @@
     ]
   },
   {
+    "id": 3,
     "name": "Internal Organs",
     "thumbnail": "/assets/apps/flipcard-game/internal-organs/thumbnail.png",
     "data": [
@@ -72,6 +76,7 @@
     ]
   },
   {
+    "id": 4,
     "name": "Colour",
     "thumbnail": "/assets/apps/flipcard-game/colour/thumbnail.png",
     "data": [
@@ -90,6 +95,7 @@
     ]
   },
   {
+    "id": 5,
     "name": "Reading Table",
     "thumbnail": "/assets/apps/flipcard-game/reading-table/thumbnail.png",
     "data": [
@@ -108,6 +114,7 @@
     ]
   },
   {
+    "id": 6,
     "name": "Không cánh mà bay",
     "title": ["Không cánh mà bay", "to vanish without a trace", "不翼而飛"],
     "thumbnail": "/assets/apps/flipcard-game/006-khong-canh-ma-bay/thumbnail.png",
