@@ -106,5 +106,24 @@
       ["xương rồng", "cactus", "仙人掌", "/assets/apps/flipcard-game/reading-table/cactus.png"],
       ["giá sách", "bookshelf", "書架", "/assets/apps/flipcard-game/reading-table/bookshelf.png"]
     ]
+  },
+  {
+    "name": "Không cánh mà bay",
+    "title": ["Không cánh mà bay", "to vanish without a trace", "不翼而飛"],
+    "thumbnail": "/assets/apps/flipcard-game/006-khong-canh-ma-bay/thumbnail.png",
+    "data": [
+      ["cánh", "wing", "翼", "/assets/apps/flipcard-game/006-khong-canh-ma-bay/wing.png"],
+      ["bay", "fly", "飛", "/assets/apps/flipcard-game/006-khong-canh-ma-bay/fly.png"],
+      ["khu vực nhận hành lý", "baggage claim area", "行李認領區", "/assets/apps/flipcard-game/006-khong-canh-ma-bay/baggage-claim-area.png"],
+      ["băng chuyền hành lý", "luggage carousel", "行李傳送帶", "/assets/apps/flipcard-game/006-khong-canh-ma-bay/luggage-carousel.png"],
+      ["xe đẩy hành lý", "luggage cart", "行李手推車", "/assets/apps/flipcard-game/006-khong-canh-ma-bay/luggage-cart.png"],
+      ["vali", "suitcase", "行李箱", "/assets/apps/flipcard-game/006-khong-canh-ma-bay/suitcase.png"],
+      ["ba lô", "backpack", "背包", "/assets/apps/flipcard-game/006-khong-canh-ma-bay/backpack.png"],
+      ["túi xách", "handbag", "手提包", "/assets/apps/flipcard-game/006-khong-canh-ma-bay/handbag.png"],
+      ["thẻ hành lý", "luggage tag", "行李吊牌", "/assets/apps/flipcard-game/006-khong-canh-ma-bay/luggage-tag.png"],
+      ["thắt lưng hành lý", "luggage belt", "行李帶", "/assets/apps/flipcard-game/006-khong-canh-ma-bay/luggage-belt.png"],
+      ["khóa", "lock", "鎖", "/assets/apps/flipcard-game/006-khong-canh-ma-bay/lock.png"],
+      ["Tượng đá Đảo Phục Sinh", "Easter Island Stone Statue", "復活島石像", "/assets/apps/flipcard-game/006-khong-canh-ma-bay/Easter-Island-Stone-Statue.png"]
+    ]
   }
 ]
