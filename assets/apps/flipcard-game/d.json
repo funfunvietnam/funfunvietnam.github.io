@@ -159,5 +159,26 @@
       ["con dao", "knife", "刀"],
       ["thớt", "cutting board", "砧板"]
     ]
+  },
+  {
+    "id": 8,
+    "name": "Mother's day",
+    "title": ["Ngày của mẹ", "Mother's Day", "母親節"],
+    "thumbnail": "/assets/apps/flipcard-game/008-mothers-day/thumbnail.png",
+    "items": "/assets/apps/flipcard-game/008-mothers-day/items.png",
+    "data": [
+      ["hoa cẩm chướng", "Dianthus caryophyllus", "康乃馨"],
+      ["ôm", "hug", "擁抱"],
+      ["thức dậy", "wake up", "起床"],
+      ["yêu", "love", "愛"],
+      ["lịch", "calendar", "日曆"],
+      ["sữa", "milk", "牛奶"],
+      ["lát bánh mì nướng", "toast", "土司"],
+      ["cốc sứ", "mug", "馬克杯"],
+      ["giường", "bed", "床"],
+      ["gối", "pillow", "枕頭"],
+      ["truyền hình", "TV", "電視"],
+      ["phòng khách", "living room", "客廳"]
+    ]
   }
 ]
