@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/apps/flipcard-game/static/css/main.deb643d1.chunk.css",
-    "main.js": "/apps/flipcard-game/static/js/main.25f70105.chunk.js",
-    "main.js.map": "/apps/flipcard-game/static/js/main.25f70105.chunk.js.map",
+    "main.css": "/apps/flipcard-game/static/css/main.2812c76a.chunk.css",
+    "main.js": "/apps/flipcard-game/static/js/main.af3146f7.chunk.js",
+    "main.js.map": "/apps/flipcard-game/static/js/main.af3146f7.chunk.js.map",
     "runtime-main.js": "/apps/flipcard-game/static/js/runtime-main.18f33356.js",
     "runtime-main.js.map": "/apps/flipcard-game/static/js/runtime-main.18f33356.js.map",
     "static/js/2.e34ef416.chunk.js": "/apps/flipcard-game/static/js/2.e34ef416.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.b9d2df8b.chunk.js": "/apps/flipcard-game/static/js/3.b9d2df8b.chunk.js",
     "static/js/3.b9d2df8b.chunk.js.map": "/apps/flipcard-game/static/js/3.b9d2df8b.chunk.js.map",
     "index.html": "/apps/flipcard-game/index.html",
-    "static/css/main.deb643d1.chunk.css.map": "/apps/flipcard-game/static/css/main.deb643d1.chunk.css.map",
+    "static/css/main.2812c76a.chunk.css.map": "/apps/flipcard-game/static/css/main.2812c76a.chunk.css.map",
     "static/js/2.e34ef416.chunk.js.LICENSE.txt": "/apps/flipcard-game/static/js/2.e34ef416.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.18f33356.js",
     "static/js/2.e34ef416.chunk.js",
-    "static/css/main.deb643d1.chunk.css",
-    "static/js/main.25f70105.chunk.js"
+    "static/css/main.2812c76a.chunk.css",
+    "static/js/main.af3146f7.chunk.js"
   ]
 }
